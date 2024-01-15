@@ -12,7 +12,7 @@ The report file [violation\_exceptions.list](./violation_exceptions.list) is in 
 
 e.g.
 
- * ***API rule violation: names_match/api/core/v1,Event,ReportingController***
+ * ***API rule violation: names_match/api/core/v1,Event,ReportingControllers***
 
 And the violation list is sorted alphabetically in each of the \<RULE\>, \<PACKAGE\>, \<TYPE\>, \<FIELD\> levels.
 

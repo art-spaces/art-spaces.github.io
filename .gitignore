@@ -6,7 +6,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 _site
+*_site
 _site/*
+*.jekyll-cache
 .jekyll-cache
 .jekyll-cache/*
 .bundle
