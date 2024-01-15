@@ -38,7 +38,7 @@ git add .
 echo "\n"
 
 echo "\n<Automated Execution Command 🕑  $(date +%00000:%S)>:  \$_>  💬   Commit Information  📲\n"
-git commit -S -a -m "Automation Build - Distributed APT-X4OYP63YCV85E9K (REMOTELY NETWORK API)"
+git commit -S -a -m "Automation Build - ELEC A.S.W. (REMOTELY NETWORK API)"
 echo "\n"
 
 echo "\n<Automated Execution Command 🕒  $(date +%00000:%S)>:  \$>_  📮   Push 'Dev' Branch  📤\n"
