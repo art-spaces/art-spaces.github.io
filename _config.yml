@@ -1,0 +1,1193 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+# Basic Configuration
+encoding: UTF-8
+locale: en-US
+title: "ANON SYS, INC."
+keyword: "ANON SYS, INC."
+email: 0XE7BC5E3W@onion.org
+organization: "ANON SYS, INC."
+description: >- # this means to ignore newlines until "baseurl:"
+  WE ARE ANON SYS. WE ARE LEGION.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+favicon: "/assets/resource/icon/favicon/icon-32x32.png"
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+##
+
+#  ────────────────────────(START AUTOMATED BUILD SERVICE)─────────────────────────────────
+
+# PaaS Containers VMS-0XPTO Configuration
+remote_network_vm_for_anon_inc_title: ANON SYS, INC.
+remote_network_vm_for_anon_inc_description: WE ARE ANON SYS. WE ARE LEGION.
+remote_network_vm_for_anon_inc_favicon: "/OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/icon/favicon/icon-32x32.png"
+remote_network_vm_for_anon_inc_base_network: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+remote_network_vm_for_anon_inc_base_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/
+remote_network_vm_for_anon_inc_base_static_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/
+
+remote_network_anon_token_verify: "Cvvj5Ix3eewK0tHtibORqcsqchXNh0Gf3sJcaYqC2rQCVqEWxkJBW8NzRAPBqy3KXlI9ibS1ib5XsMfq3GPakox5ZIxuhCLwR9yKibaLibicGZYViaSewHicvOMc43EBhtRnFloW"
+remote_network_anon_token_api: "6xykWLEnztKmnF5VgzTQibOvqoFFfJ8cOyOiaDTO6qPDDRFByohic71lqicZqXu0paicZRpjRmqYL2bPlVlPKT9jAyxq1mqQbXz8Mr4t1J3nvnX11VdcWeUHqFI6lzs3rXv0n"
+remote_network_vm_for_products_projects_anon_okrs_dark_models_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/products/projects/anon_okrs/anon_okrs_dark_models_v5.webp
+remote_network_vm_for_products_projects_anon_okrs_light_models_addr: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/products/projects/anon_okrs/anon_okrs_light_models_v5.webp
+
+# PaaS Containers VMS-0XPTO i18n All Configuration
+remote_network_api_i18n_USA: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+remote_network_api_i18n_Placeholder_USA: "Explore global crypto, news and more..."
+remote_network_api_i18n_CHN: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/CHN
+remote_network_api_i18n_Placeholder_CHN: "探索 全球加密货币、新闻和更多可能性..."
+remote_network_api_i18n_DEU: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/DEU
+remote_network_api_i18n_Placeholder_DEU: "Entdecken Sie globale Kryptowährungen, Neuigkeiten und weitere Möglichkeiten..."
+remote_network_api_i18n_ESP: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/ESP
+remote_network_api_i18n_Placeholder_ESP: "Explore criptomonedas globales, noticias y más posibilidades..."
+remote_network_api_i18n_HKG: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/HKG
+remote_network_api_i18n_Placeholder_HKG: "探索 全球加密貨幣、新聞和更多可能性..."
+remote_network_api_i18n_JPN: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/JPN
+remote_network_api_i18n_Placeholder_JPN: "グローバルな暗号通貨、ニュース、その他の可能性を探る..."
+remote_network_api_i18n_KOR: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KOR
+remote_network_api_i18n_Placeholder_KOR: "글로벌 암호화폐, 뉴스 및 더 많은 가능성을 살펴보세요..."
+remote_network_api_i18n_KSA: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KSA
+remote_network_api_i18n_Placeholder_KSA: "استكشف العملات المشفرة العالمية والأخبار والمزيد من الاحتمالات ..."
+remote_network_api_i18n_RUS: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/RUS
+remote_network_api_i18n_Placeholder_RUS: "Исследуйте глобальные криптовалюты, новости и другие возможности..."
+remote_network_api_i18n_UK: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/UK
+remote_network_api_i18n_Placeholder_UK: "Explore global crypto, news and more..."
+
+# PaaS Containers VMS-0XPTO i18n Translate API Configuration
+remote_network_translate_api:
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/USA.svg
+  code_name: USA
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/CHN
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/CHN.svg
+  code_name: CHN
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/DEU
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/DEU.svg
+  code_name: DEU
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/ESP
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/ESP.svg
+  code_name: ESP
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/HKG
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/HKG.svg
+  code_name: HKG
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/JPN
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/JPN.svg
+  code_name: JPN
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/KOR
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KOR.svg
+  code_name: KOR
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/KSA
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KSA.svg
+  code_name: KSA
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/RUS
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/RUS.svg
+  code_name: RUS
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/UK
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/UK.svg
+  code_name: UK
+
+
+# PaaS Containers VMS-0XPTO i18n Singleton Model - Anon OKR - Translate API Configuration
+remote_network_anon_okr_translate_api:
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/USA
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/USA.svg
+  code_name: USA
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/CHN
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/CHN.svg
+  code_name: CHN
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/DEU
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/DEU.svg
+  code_name: DEU
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/ESP
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/ESP.svg
+  code_name: ESP
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/HKG
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/HKG.svg
+  code_name: HKG
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/JPN
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/JPN.svg
+  code_name: JPN
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/KOR
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KOR.svg
+  code_name: KOR
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/KSA
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/KSA.svg
+  code_name: KSA
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/RUS
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/RUS.svg
+  code_name: RUS
+-
+  code_id: translate-api
+  code_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-G0ZF7/RemotelyNetwork/Actions=InvokeRequest/TokenKeyPairs=Authorization/PrivatizedAPIs/Services/BizProducts/ANON-OKRs-E/Intl/USA
+  code_icon: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/assets/resource/i18n/UK.svg
+  code_name: UK
+
+
+# PaaS Containers VMS-0XPTO i18n Menu API
+main_router_i18n_USA:
+- # Level 1 Menu => None Subset
+  router_api_id: home
+  label_api: Home
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC
+  role_api: #
+- # Level 2 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
+  router_api_id: activity
+  label_api: Activity
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  level_menu_1:
+      level_menu_label: X Live
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_1_1:
+          level_menu_label: Live Event
+          level_menu_link: javascript:void(0);
+      level_menu_1_2:
+          level_menu_label: Live Stream
+          level_menu_link: javascript:void(0);
+      level_menu_1_3:
+          level_menu_label: Live Meetings
+          level_menu_link: javascript:void(0);
+  level_menu_2:
+      level_menu_label: X News
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_2_1:
+          level_menu_label: Media Flow
+          level_menu_link: javascript:void(0);
+      level_menu_2_2:
+          level_menu_label: Data Report
+          level_menu_link: javascript:void(0);
+      level_menu_2_3:
+          level_menu_label: Breaking News
+          level_menu_link: javascript:void(0);
+  level_menu_3:
+      level_menu_label: X Plans
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_3_1:
+          level_menu_label: Action
+          level_menu_link: javascript:void(0);
+      level_menu_3_2:
+          level_menu_label: Recruit
+          level_menu_link: javascript:void(0);
+      level_menu_3_3:
+          level_menu_label: Public Welfare
+          level_menu_link: javascript:void(0);
+- # Level 3 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
+  router_api_id: explore
+  label_api: Explore
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  level_menu_1:
+      level_menu_label: Labs
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_1_1:
+          level_menu_label: SIS-UJFXJTNT
+          level_menu_link: javascript:void(0);
+      level_menu_1_2:
+          level_menu_label: APT-C31PVKCF
+          level_menu_link: javascript:void(0);
+      level_menu_1_3:
+          level_menu_label: NSA-GENA3VXE
+          level_menu_link: javascript:void(0);
+  level_menu_2:
+      level_menu_label: Projects
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_2_1:
+          level_menu_label: We Cion
+          level_menu_link: javascript:void(0);
+      level_menu_2_2:
+          level_menu_label: We Block
+          level_menu_link: javascript:void(0);
+      level_menu_2_3:
+          level_menu_label: We Workload
+          level_menu_link: javascript:void(0);
+  level_menu_3:
+      level_menu_label: Channel
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_3_1:
+          level_menu_label: New Biz
+          level_menu_link: javascript:void(0);
+      level_menu_3_2:
+          level_menu_label: New Tech
+          level_menu_link: javascript:void(0);
+      level_menu_3_3:
+          level_menu_label: New Energy
+          level_menu_link: javascript:void(0);
+
+- # Level 4 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
+  router_api_id: enterprise
+  label_api: Enterprise
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  level_menu_1:
+      level_menu_label: Products
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_1_1:
+          level_menu_label: Enterprise Basic
+          level_menu_link: javascript:void(0);
+      level_menu_1_2:
+          level_menu_label: Enterprise Security
+          level_menu_link: javascript:void(0);
+      level_menu_1_3:
+          level_menu_label: Enterprise Application
+          level_menu_link: javascript:void(0);
+  level_menu_2:
+      level_menu_label: Solutions
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_2_1:
+          level_menu_label: Universal Solution
+          level_menu_link: javascript:void(0);
+      level_menu_2_2:
+          level_menu_label: Industry Solution
+          level_menu_link: javascript:void(0);
+      level_menu_2_3:
+          level_menu_label: Other Solution
+          level_menu_link: javascript:void(0);
+  level_menu_3:
+      level_menu_label: Scenarios
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_3_1:
+          level_menu_label: Covid-19
+          level_menu_link: /Covid-19
+      level_menu_3_2:
+          level_menu_label: Blockchain
+          level_menu_link: javascript:void(0);
+      level_menu_3_3:
+          level_menu_label: Sustainability
+          level_menu_link: javascript:void(0);
+- # Level 5 Menu => Subset (1 -> 1.1 ~ 1.2) & Subset (2 -> 2.1 ~ 2.2) & Subset (3 -> 3.1 ~ 3.2)
+  router_api_id: marketplace
+  label_api: Marketplace
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  level_menu_1:
+      level_menu_label: Service
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_1_1:
+          level_menu_label: Finance
+          level_menu_link: javascript:void(0);
+      level_menu_1_2:
+          level_menu_label: Business
+          level_menu_link: javascript:void(0);
+      level_menu_1_3:
+          level_menu_label: Juridical
+          level_menu_link: javascript:void(0);
+  level_menu_2:
+      level_menu_label: Resources
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_2_1:
+          level_menu_label: API Hub
+          level_menu_link: javascript:void(0);
+      level_menu_2_2:
+          level_menu_label: Wiki Hub
+          level_menu_link: javascript:void(0);
+      level_menu_2_3:
+          level_menu_label: Library Hub
+          level_menu_link: javascript:void(0);
+  level_menu_3:
+      level_menu_label: Metaverse Club
+      level_menu_link: #
+      level_menu_role: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      level_menu_3_1:
+          level_menu_label: Stock Club
+          level_menu_link: javascript:void(0);
+      level_menu_3_2:
+          level_menu_label: PE Fund Club
+          level_menu_link: javascript:void(0);
+      level_menu_3_3:
+          level_menu_label: Open Source Club
+          level_menu_link: javascript:void(0);
+
+options_router_i18n_USA:
+-
+  options_label_api: About Us
+  options_link_api: javascript:void(0);
+-
+  options_label_api: Company Culture
+  options_link_api: javascript:void(0);
+-
+  options_label_api: Mission & Vision
+  options_link_api: javascript:void(0);
+-
+  options_label_api: Privacy Policy
+  options_link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Actions=InvokeRequest/TokenKeyPairs=Authorization/PublicizedAPI/Services/About/PrivacyPolicy/Intl/USA
+-
+  options_label_api: Help Center
+  options_link_api: javascript:void(0);
+
+footer_router_i18n_USA_v1:
+- menu_title: "Industry Park"
+-
+  menu_items:
+    open_label: "New Energy"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "Tech Incubator"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "Aerospace Tech"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "FIN Venture Capital"
+    open_link: "javascript:void(0);"
+
+footer_router_i18n_USA_v2:
+- menu_title: "Discovery"
+-
+  menu_items:
+    open_label: "Web 3.0"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "Open NFTs"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "Advanced Tech"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "Decentralization"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "Digital Economy"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "Internet of Things"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "New Infrastructure"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "Artificial Intelligence"
+    open_link: "javascript:void(0);"
+
+footer_router_i18n_USA_v3:
+- menu_title: "Enterprise"
+-
+  menu_items:
+    open_label: "ANON TOKEN"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "ANON OKRs-E"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "Workload Center"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "Crypto Exchange Hub"
+    open_link: "javascript:void(0);"
+
+nav_menu_i18n_CHN:
+-
+  router_api_id: home
+  label_api: 首页
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/CHN
+  role_api: #
+-
+  router_api_id: activity
+  label_api: 活动
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Live
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: Live 2
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: 探索
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: 区块链
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: 企业
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: 交易中心
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: 市场
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: 世界中心
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+footer_menu_i18n_CHN_v1:
+- menu_title: "产业"
+-
+  menu_items:
+    open_label: "孵化器"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "城市大脑"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "智慧城市"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "智慧工厂"
+    open_link: "javascript:void(0);"
+
+footer_menu_i18n_CHN_v2:
+- menu_title: "探索"
+-
+  menu_items:
+    open_label: "大数据"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "区块链"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "数据中心"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "先进科技"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "新基建"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "物联网"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "数字经济"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "人工智能"
+    open_link: "javascript:void(0);"
+
+footer_menu_i18n_CHN_v3:
+- menu_title: "企业"
+-
+  menu_items:
+    open_label: "加密跳动"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "世界中心"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "交易中心"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "工作量管理"
+    open_link: "javascript:void(0);"
+
+nav_menu_i18n_HKG:
+-
+  router_api_id: home
+  label_api: 首頁
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/HKG
+  role_api: #
+-
+  router_api_id: activity
+  label_api: 活動
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Live
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: Live 2
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: 探索
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: 區塊鏈
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: 企業
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: 交易中心
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: 市場
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: 世界中心
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+footer_menu_i18n_HKG_v1:
+- menu_title: "產業"
+-
+  menu_items:
+    open_label: "孵化器"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "城市大腦"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "智慧城市"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "智慧工廠"
+    open_link: "javascript:void(0);"
+
+footer_menu_i18n_HKG_v2:
+- menu_title: "探索"
+-
+  menu_items:
+    open_label: "大數據"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "區塊鏈"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "數據中心"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "先進科技"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "新基建"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "物聯網"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "數字經濟"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "人工智能"
+    open_link: "javascript:void(0);"
+
+footer_menu_i18n_HKG_v3:
+- menu_title: "企業"
+-
+  menu_items:
+    open_label: "加密跳動"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "世界中心"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "交易中心"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "工作量管理"
+    open_link: "javascript:void(0);"
+
+nav_menu_i18n_UK:
+-
+  router_api_id: home
+  label_api: Home
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/UK
+  role_api: #
+-
+  router_api_id: activity
+  label_api: Activity
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Live
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: Live 2
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: Explore
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Blockchain
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: Enterprise
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Crypto Exchange Hub
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: Marketplace
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Next World Hub
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+nav_menu_i18n_JPN:
+-
+  router_api_id: home
+  label_api: "フロントページ"
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/JPN
+  role_api: #
+-
+  router_api_id: activity
+  label_api: "アクティビティ"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: Live
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: Live 2
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: "探検"
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "ブロックチェーン"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: "エンタープライズ"
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "トレーディングセンター"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: "マーケット"
+  link_api: "#"
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "ワールドセンター"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+footer_menu_i18n_JPN_v1:
+- menu_title: "業界"
+-
+  menu_items:
+    open_label: "インキュベータ"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "シティブレイン"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "スマートシティ"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "スマートファクトリー"
+    open_link: "javascript:void(0);"
+
+footer_menu_i18n_JPN_v2:
+- menu_title: "探検"
+-
+  menu_items:
+    open_label: "ビッグデータ"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "ブロックチェーン"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "データセンター"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "高度なテクノロジー"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "デジタルエコノミー"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "モノのインターネット"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "新しいインフラストラクチャ"
+    open_link: "javascript:void(0);"
+-
+  menu_items_v2:
+    open_label: "人工知能"
+    open_link: "javascript:void(0);"
+
+footer_menu_i18n_JPN_v3:
+- menu_title: "企業"
+-
+  menu_items:
+    open_label: "クリプトダンス"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "ネクストワールドハブ"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "ワークロードセンター"
+    open_link: "javascript:void(0);"
+-
+  menu_items:
+    open_label: "暗号交換ハブ"
+    open_link: "javascript:void(0);"
+
+nav_menu_i18n_KOR:
+-
+  router_api_id: home
+  label_api: "집"
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/i18n/KOR
+  role_api: #
+-
+  router_api_id: activity
+  label_api: "활동"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "살다"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: "라이브 2"
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: "탐구하다"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "블록체인"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: "기업"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "암호화폐 거래소 허브"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: "시장"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "넥스트 월드 허브"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+nav_menu_i18n_KSA:
+-
+  router_api_id: home
+  label_api: "مسكن"
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/KSA
+  role_api: #
+-
+  router_api_id: activity
+  label_api: "نشاط"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "يعيش"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: "يعيش 2"
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: "يستكشف"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "بلوكشين"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: "مَشرُوع"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "مركز تبادل التشفير"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: "المتجر"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Next World Hub"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+nav_menu_i18n_RUS:
+-
+  router_api_id: home
+  label_api: "Дом"
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/RUS
+  role_api: #
+-
+  router_api_id: activity
+  label_api: "Мероприятия"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Жить"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: "Жить 2"
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: "Проводить исследования"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Блокчейн"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: "Предприятие"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Центр криптообмена"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: "Торговая площадка"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Следующий мировой хаб"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+nav_menu_i18n_DEU:
+-
+  router_api_id: home
+  label_api: "Heim"
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/DEU
+  role_api: #
+-
+  router_api_id: activity
+  label_api: "Aktivität"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Leben"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: "Leben 2"
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: "Entdecken"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Blockchain"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: "Unternehmen"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Krypto-Exchange-Hub"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: "Marktplatz"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Next World Hub"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+nav_menu_i18n_ESP:
+-
+  router_api_id: home
+  label_api: "Casa"
+  link_api: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/intl/ESP
+  role_api: #
+-
+  router_api_id: activity
+  label_api: "Actividad"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Vivir"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Activity
+      role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+      label_api_v3:
+          open_label: "vivir 2"
+          open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Live
+-
+  router_api_id: explore
+  label_api: "Explorar"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "cadena de bloques"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Explore
+      role_api: #
+-
+  router_api_id: enterprise
+  label_api: "Empresa"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Centro de intercambio criptográfico"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Enterprise
+      role_api: #
+-
+  router_api_id: marketplace
+  label_api: "Mercado"
+  link_api: #
+  role_api: 'role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"'
+  label_api_v2:
+      open_label: "Próximo centro mundial"
+      open_link: /OpenAPIs/ServerlessEngine/PaaS/Containers/VMS-0XPTO/ANON-INC/Marketplace
+      role_api: #
+
+#  ────────────────────────(END AUTOMATED BUILD SERVICE)──────────────────────────────────
