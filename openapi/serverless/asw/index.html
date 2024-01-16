@@ -13,6 +13,8 @@
   <script src="./assets/js/bootstrap.js"></script>
   <link rel="stylesheet" href="./assets/css/bootstrap.css">
   <link rel="stylesheet" href="./assets/css/main.css">
+  <!-- <link rel="stylesheet" href="https://demo.pixelphotoscript.com/apps/default/main/static/css/styles.master.css"> -->
+
   <link rel="stylesheet" href="./assets/css/mini_navbar.css">
   <link rel="stylesheet" href="./assets/css/remixicon.min.css">
   <script src="./assets/js/jquery-form.v3.51.0.js"></script>
@@ -35,14 +37,13 @@
     /*Transition*/
     #page_content {
       opacity: 0;
-
     }
   </style>
 </head>
 
 <!-- <body data-app="home" class="body-home" sync-transformers-model-version="light-models" style="transform: none;"> -->
 
-<body data-app="posts" class="body-posts" sync-transformers-model-version="light-models" style="transform: none;">
+<body data-app="posts" class="body-posts body-messages" sync-transformers-model-version="light-models">
   <!-- <img src="https://demo.pixelphotoscript.com/media/img/light-logo.png" width="42px"> -->
   <div class="bar_loading" id="main_loading"></div>
   <script type="text/javascript">
@@ -57,6 +58,10 @@
           page_content.style.opacity = "1";
         }
       }
+      badge_close.onclick = function () {
+        second_header.style.display = "none";
+        post_container.style = "margin-top: 35px";
+      }
     }
   </script>
 
@@ -68,189 +73,106 @@
           <li class="logo">
             <a href="#">
               <img src="https://demo.pixelphotoscript.com/media/img/logo.png" width="42px">
-              <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-8 h-8 text-pink-500" data-id="5"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line></svg> -->
-
-
             </a>
           </li>
-          <!--                 <li class="pp_front_menu">
-                    <a href="https://demo.pixelphotoscript.com">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                             fill="#66757f" class="feather feather-home">
-                            <path d="M9,19V13H11L13,13H15V19H18V10.91L12,4.91L6,10.91V19H9M12,2.09L21.91,12H20V21H13V15H11V21H4V12H2.09L12,2.09Z"/>
-                        </svg>
-                        <span>动态</span>
-                    </a>
-                </li>
-
-                <li class="pp_front_menu last_menu">
-                    <a href="https://demo.pixelphotoscript.com/explore">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                             fill="#66757f" class="feather feather-compass">
-                            <path d="M7,17L10.2,10.2L17,7L13.8,13.8L7,17M12,11.1A0.9,0.9 0 0,0 11.1,12A0.9,0.9 0 0,0 12,12.9A0.9,0.9 0 0,0 12.9,12A0.9,0.9 0 0,0 12,11.1M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"/>
-                        </svg>
-                        <span>发现</span>
-                    </a>
-                </li> -->
           <li class="pp_front_menu" id="home_nav">
-            <a href="#" data-ajax="ajax_loading.php?app=home&amp;apph=home">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#66757f"
-                class="feather feather-home">
-                <path
-                  d="M9,19V13H11L13,13H15V19H18V10.91L12,4.91L6,10.91V19H9M12,2.09L21.91,12H20V21H13V15H11V21H4V12H2.09L12,2.09Z">
-                </path>
-              </svg> <span>Home</span>
+            <a href="#">
+              <i class="feather feather-home ri-global-line" style="font-size: 22px; vertical-align: text-top;"></i>
+              <span>Space</span>
             </a>
           </li>
           <li class="pp_front_menu exp_menu" id="explore_nav">
-            <a href="#" data-ajax="ajax_loading.php?app=explore&amp;apph=explore">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#66757f"
-                class="feather feather-compass">
-                <path
-                  d="M7,17L10.2,10.2L17,7L13.8,13.8L7,17M12,11.1A0.9,0.9 0 0,0 11.1,12A0.9,0.9 0 0,0 12,12.9A0.9,0.9 0 0,0 12.9,12A0.9,0.9 0 0,0 12,11.1M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z">
-                </path>
-              </svg> <span>Explore</span>
+            <a href="#">
+              <i class="feather feather-compass ri-compass-4-line"
+                style="font-size: 22px; vertical-align: text-top;"></i>
+              <span>Explore</span>
             </a>
           </li>
-          <li class="pp_front_menu reel_menu" id="reels_nav">
-            <a href="#" data-ajax="ajax_loading.php?app=reels&amp;apph=reels">
-              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;"
-                xml:space="preserve" class="feather">
-                <style type="text/css">
-                  .greel-st0 {
-                    fill: #727372;
-                  }
-
-                  .greel-st1 {
-                    fill: url(#SVGID_1_);
-                  }
-
-                  .greel-st2 {
-                    fill: url(#SVGID_2_);
-                  }
-
-                  .greel-st3 {
-                    fill: url(#SVGID_3_);
-                  }
-
-                  .greel-st4 {
-                    fill: url(#SVGID_4_);
-                  }
-
-                  .greel-st5 {
-                    fill: url(#SVGID_5_);
-                  }
-
-                  .greel-st6 {
-                    fill: url(#SVGID_6_);
-                  }
-
-                  .greel-st7 {
-                    fill: url(#SVGID_7_);
-                  }
-
-                  .greel-st8 {
-                    fill: url(#SVGID_8_);
-                  }
-
-                  .greel-st9 {
-                    fill: url(#SVGID_9_);
-                  }
-                </style>
-                <g>
-                  <g>
-                    <g>
-                      <path class="greel-st0" d="M33.4,8l0.7,0.7L34.8,8H33.4z"></path>
-                      <path class="greel-st0"
-                        d="M56.8,16.8c-0.6-2.5-2-4.7-3.9-6.3c-1.1-0.9-2.3-1.5-3.7-2C48.1,8.2,47,8,45.8,8h-11l-0.7,0.7L33.4,8H18.2 c-1.6,0-3.1,0.3-4.5,0.9c-3.3,1.4-5.7,4.4-6.5,7.9C7,17.6,7,18.4,7,19.3v27.6c0,6.2,5,11.3,11.3,11.3h27.6C52,58.1,57,53,57,46.8 V19.3C57,18.4,56.9,17.6,56.8,16.8z M53,46.8c0,4-3.3,7.3-7.3,7.3H18.2c-4,0-7.3-3.3-7.3-7.3V19.3c0-0.8,0.1-1.7,0.4-2.4 c0.8-2.4,2.9-4.3,5.5-4.7c0.4-0.1,0.9-0.1,1.3-0.1h27.6c1.6,0,3,0.5,4.2,1.4c1.2,0.8,2.1,2.1,2.6,3.5c0.3,0.8,0.4,1.6,0.4,2.4 V46.8z">
-                      </path>
-                    </g>
-                    <g>
-                      <path class="greel-st0"
-                        d="M53,19.3v1.6H11v-1.6c0-0.8,0.1-1.7,0.4-2.4h41.2C52.9,17.6,53,18.4,53,19.3z"></path>
-                    </g>
-                    <g>
-                      <g>
-                        <polygon class="greel-st0"
-                          points="42.2,16.8 36.5,16.8 34.1,14.4 31.7,12 37.4,12 41.5,16.2                 "></polygon>
-                        <polygon class="greel-st0"
-                          points="42.5,20.8 41.5,21.8 37.4,26 31.7,26 36.9,20.8               "></polygon>
-                      </g>
-                      <g>
-                        <path class="greel-st0"
-                          d="M27.3,16.8h-5.7l-4.7-4.7c0.4-0.1,0.9-0.1,1.3-0.1h4.2l4.2,4.2L27.3,16.8z"></path>
-                        <polygon class="greel-st0" points="27.6,20.8 22.4,26 16.8,26 21.9,20.8                ">
-                        </polygon>
-                      </g>
-                    </g>
-                    <g>
-                      <rect x="11" y="26" class="greel-st0" width="42.1" height="4"></rect>
-                    </g>
-                  </g>
-                  <polygon class="greel-st0" points="39,41.2 26.1,33.7 26.1,48.7   "></polygon>
-                </g>
-              </svg>
-              <span>Reels</span>
+          <li class="pp_front_menu reel_menu feather" id="reels_nav">
+            <a href="#">
+              <i class="feather feather-compass ri-camera-lens-fill"
+                style="font-size: 22px; vertical-align: text-top;"></i>
+              <span>Photo</span>
             </a>
           </li>
-          <li class="pp_front_menu " id="go_pro_nav">
-            <a href="#" data-ajax="ajax_loading.php?app=go_pro&amp;apph=go_pro">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" class="feather feather-compass" stroke-width="2" stroke-linecap="round"
-                stroke-linejoin="round">
-                <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2" style="color: #66757f"></polygon>
-              </svg> <span>Go Pro</span>
+          <li class="pp_front_menu feather feather-compass" id="go_pro_nav">
+            <a href="#">
+              <i class="feather feather-compass ri-movie-2-line" style="font-size: 22px; vertical-align: text-top;"></i>
+              <span>Video</span>
+            </a>
+          </li>
+          <li class="pp_front_menu feather feather-compass" id="go_pro_nav">
+            <a href="#">
+              <i class="feather feather-compass ri-disc-line" style="font-size: 22px; vertical-align: text-top;"></i>
+              <span>Music</span>
             </a>
           </li>
 
           <li class="pp_front_menu last_menu exp_menu " id="store_nav">
-            <a href="#" data-ajax="ajax_loading.php?app=store&amp;apph=store&amp;user=&amp;page=all">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="feather">
-                <path fill="currentColor"
-                  d="M12,18H6V14H12M21,14V12L20,7H4L3,12V14H4V20H14V14H18V20H20V14M20,4H4V6H20V4Z"></path>
-              </svg> <span>Store</span>
+            <a href="#">
+              <i class="feather feather-compass ri-donut-chart-line"
+                style="font-size: 22px; vertical-align: text-top;"></i>
+              <span>Store</span>
             </a>
           </li>
-          <!--                 <li>
-                    <form class="form navbar-search">
-                        <div class="input">
-                            <input type="text" class="form-control" placeholder="搜索..." id="search-users">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                 fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                 stroke-linejoin="round" class="feather feather-search">
-                                <circle cx="11" cy="11" r="8"></circle>
-                                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
-                            </svg>
-                            <div class="pp_head_search_loader" id="pp_loader">
-                                <div class="speeding_wheel"></div>
-                            </div>
-                        </div>
-                        <div class="search-result"></div>
-                    </form>
-                </li> -->
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li class="hide_head_link" id="get-messages">
+          <li class="hide_head_link">
             <a href="#" class="_messages">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="feather feather-message-square">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#currentColor">
+                <path
+                  d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z">
+                </path>
               </svg>
               <small class="badge" id="new__messages">9</small>
             </a>
           </li>
           <li>
-            <div class="dropdown notifications-list" id="get-notifications" title="Admin panel">
+            <div class="dropdown notifications-list" id="get-notifications">
               <span class="dropdown-toggle pointer" data-toggle="dropdown">
-                <div class="icon_current"> <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                    viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round" class="feather feather-bell">
-                    <path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
-                  </svg></div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="feather feather-bell">
+                  <path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
+                </svg>
                 <small class="badge" id="new__notif">6</small>
               </span>
+              <div class="dropdown-menu zoom">
+                <div class="header">Notifications
+                  <a href="https://demo.pixelphotoscript.com/settings/notifications/yefnyqy"
+                    data-ajax="ajax_loading.php?app=settings&amp;apph=settings&amp;user=yefnyqy&amp;page=notifications">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="feather feather-sliders">
+                      <line x1="4" y1="21" x2="4" y2="14"></line>
+                      <line x1="4" y1="10" x2="4" y2="3"></line>
+                      <line x1="12" y1="21" x2="12" y2="12"></line>
+                      <line x1="12" y1="8" x2="12" y2="3"></line>
+                      <line x1="20" y1="21" x2="20" y2="16"></line>
+                      <line x1="20" y1="12" x2="20" y2="3"></line>
+                      <line x1="1" y1="14" x2="7" y2="14"></line>
+                      <line x1="9" y1="8" x2="15" y2="8"></line>
+                      <line x1="17" y1="16" x2="23" y2="16"></line>
+                    </svg>
+                  </a>
+                </div>
+                <ul id="notifications__list">
+                  <div class="empty_state"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M18.586 20H4a.5.5 0 0 1-.4-.8l.4-.533V10c0-1.33.324-2.584.899-3.687L1.393 2.808l1.415-1.415 19.799 19.8-1.415 1.414L18.586 20zM20 15.786L7.559 3.345A8 8 0 0 1 20 10v5.786zM9.5 21h5a2.5 2.5 0 1 1-5 0z">
+                        </path>
+                      </svg></span>
+                    <p>You do not have any notifications</p>
+                  </div>
+                </ul>
+                <div class="preloader hidden">
+                  <div id="pp_loader">
+                    <div class="speeding_wheel"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="clear"></div>
             </div>
           </li>
 
@@ -299,70 +221,44 @@
     <div id="second_header">
       <ul>
         <li class="pp_front_menu">
-          <a href="#">X</a>
+          <small class="badge" id="badge_close"><i class="ri-close-fill" style="font-size: 20px;"></i></small>
         </li>
+
         <li class="pp_front_menu">
-          <a href="#">
-            <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                           fill="#66757f" class="feather feather-home">
-                          <path d="M9,19V13H11L13,13H15V19H18V10.91L12,4.91L6,10.91V19H9M12,2.09L21.91,12H20V21H13V15H11V21H4V12H2.09L12,2.09Z"/>
-                      </svg> -->
-
-            <img src="https://generated.vusercontent.net/placeholder.svg" width="40px" height="40px" class="img-circle">
-
-          </a>
-          <span>Jackson</span>
-
-
+          <!-- <div class="avatar">
+            <img src="https://generated.vusercontent.net/placeholder.svg" alt="XXXX" width="40px" height="40px" class="img-circle img-res">
+          </div> -->
+          <div class="user-avatar">
+            <img src="https://generated.vusercontent.net/placeholder.svg" alt="XXXX" width="40px" height="40px"
+              class="img-circle">
+          </div>
+          <span class="user-identity"></span>
+          <div class="uname">
+            <div class="fluid">
+              <a href="#">Jackson Conan</a>
+            </div>
+          </div>
         </li>
 
-        <!-- <li class="pp_front_menu last_menu">
-                  <a href="https://demo.pixelphotoscript.com/explore">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                           fill="#66757f" class="feather feather-compass">
-                          <path d="M7,17L10.2,10.2L17,7L13.8,13.8L7,17M12,11.1A0.9,0.9 0 0,0 11.1,12A0.9,0.9 0 0,0 12,12.9A0.9,0.9 0 0,0 12.9,12A0.9,0.9 0 0,0 12,11.1M12,2A10,10 0 0,1 22,12A10,10 0 0,1 12,22A10,10 0 0,1 2,12A10,10 0 0,1 12,2M12,4A8,8 0 0,0 4,12A8,8 0 0,0 12,20A8,8 0 0,0 20,12A8,8 0 0,0 12,4Z"/>
-                      </svg>
-                  </a>
-              </li>
-              <li class="msgz">
-                  <a href="https://demo.pixelphotoscript.com/messages" class="_messages">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                           class="feather feather-message-square">
-                          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-                      </svg>
-                      <small class="badge" id="new__messages_sec"></small>
-                  </a>
-              </li>
-              <li title="Admin panel">
-                  <a href="https://demo.pixelphotoscript.com/admin-panel">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
-                           stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                           class="feather feather-layout">
-                          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
-                          <line x1="3" y1="9" x2="21" y2="9"></line>
-                          <line x1="9" y1="21" x2="9" y2="9"></line>
-                      </svg>
-                  </a>
-              </li> -->
-        <li class="">
+        <li class="pp_front_menu">
           <div class="button">
             <a><span>关注</span></a>
           </div>
         </li>
       </ul>
     </div>
+
     <div class="loadding-pgbar">
       <div class="bar"></div>
     </div>
   </nav>
 
 
-  <!-- opacity_start -->
+  <main class="container container-posts container-posts-main" id="page_content">
 
-  <main class="container container-posts container-posts-main" id="page_content" style="transform: none;">
+        <!-- <svg class="pp_svg_squiggle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 114 24" aria-label="Squiggle"><defs><linearGradient id="67787231-268e-4988-be2a-d6340fac9eab" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6d47d9"></stop><stop offset="100%" stop-color="#f93d66"></stop></linearGradient></defs><path opacity="0.2" d="M114 22c0 1.1-.9 2-2 2-3.2 0-5.8-1.3-8-3.8-1.6-1.7-2.6-3.4-4.7-7.3-3.8-6.8-5.7-9-9.2-9-3.5 0-5.5 2.1-9.2 9-2.1 3.9-3.2 5.5-4.8 7.3-2.2 2.5-4.8 3.8-8 3.8s-5.8-1.3-8-3.8c-1.6-1.7-2.6-3.4-4.8-7.3-3.8-6.8-5.7-9-9.2-9-3.5 0-5.5 2.1-9.2 9-2.1 3.9-3.2 5.5-4.8 7.3-2.2 2.5-4.8 3.8-8 3.8s-5.8-1.3-8-3.8c-1.6-1.7-2.6-3.4-4.7-7.3C7.5 6.1 5.5 4 2 4 .9 4 0 3.1 0 2s.9-2 2-2c3.2 0 5.8 1.3 8 3.8 1.6 1.7 2.6 3.4 4.7 7.3 3.8 6.9 5.7 9 9.2 9 3.5 0 5.5-2.1 9.2-9 2.2-3.9 3.2-5.5 4.8-7.3C40.2 1.3 42.8 0 46 0s5.8 1.3 8 3.8c1.6 1.7 2.6 3.4 4.8 7.3 3.8 6.9 5.7 9 9.2 9 3.5 0 5.5-2.1 9.2-9 2.2-3.9 3.2-5.5 4.8-7.3C84.2 1.3 86.8 0 90 0s5.8 1.3 8 3.8c1.6 1.7 2.6 3.4 4.8 7.3 3.8 6.9 5.7 9 9.2 9 1.1-.1 2 .8 2 1.9z" fill="url(#67787231-268e-4988-be2a-d6340fac9eab)"></path></svg><svg class="pp_svg_lines" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134.9 70.1" aria-label="Lines"><defs><linearGradient id="eed89beb-684d-466b-9a87-91d2ebaf480f" x1="0%" y1="0%" x2="0%" y2="100%"><stop offset="0%" stop-color="#00dcaf"></stop><stop offset="100%" stop-color="#6d47d9"></stop></linearGradient></defs><path opacity="0.2" d="M2 70.1c-.5 0-1-.2-1.4-.6-.8-.8-.8-2 0-2.8L66.7.6c.8-.8 2-.8 2.8 0s.8 2 0 2.8L3.4 69.5c-.4.4-.9.6-1.4.6zM33.1 70.1c-.5 0-1-.2-1.4-.6-.8-.8-.8-2 0-2.8L97.7.6c.8-.8 2-.8 2.8 0s.8 2 0 2.8l-66 66.1c-.4.4-.9.6-1.4.6zM66.8 70.1c-.5 0-1-.2-1.4-.6-.8-.8-.8-2 0-2.8L131.5.6c.8-.8 2-.8 2.8 0s.8 2 0 2.8L68.2 69.5c-.4.4-.9.6-1.4.6z" fill="url(#eed89beb-684d-466b-9a87-91d2ebaf480f)"></path></svg><svg class="pp_svg_spiral" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 51" aria-label="Spiral"><defs><linearGradient id="8332a4c0-73dd-4f9c-a3d5-67b448fbfa7d" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#f7bc28"></stop><stop offset="100%" stop-color="#f93d66"></stop></linearGradient></defs><path opacity="0.2" d="M46.2 34.2C42.5 44.3 33 50.6 23.1 50.6c-2.7 0-5.4-.5-8-1.4-5.6-2.1-10.3-6.4-12.8-11.9C-.1 31.9-.3 26 1.7 20.7c2-5.1 6-9.4 11-11.6 4.8-2.1 10-2.3 14.8-.5 4.6 1.8 8.4 5.5 10.3 10 1.9 4.3 1.9 9 .2 13.2-1.6 4.1-4.9 7.4-8.9 9.1-3.8 1.6-7.9 1.6-11.6 0-3.5-1.5-6.3-4.4-7.7-8-1.3-3.3-1.3-6.9.1-10 1.3-3 3.8-5.3 6.9-6.4 2.8-1 5.8-.9 8.4.3 2.5 1.2 4.4 3.4 5.2 6 .7 2.3.5 4.7-.6 6.7-.9 1.8-2.7 3.2-4.8 3.8-1.9.5-3.8.2-5.4-.8-1.5-1-2.4-2.7-2.5-4.4-.1-1.3.4-2.6 1.4-3.4 1-1 3-1.2 4.2-.4 1.1.7 1.5 1.9 1.1 3.1-.3 1-1.4 1.6-2.4 1.3.1.2.3.4.5.5.7.5 1.6.4 2.1.3 1-.2 1.8-.9 2.2-1.8.8-1.4.6-2.8.3-3.7-.5-1.5-1.6-2.9-3.1-3.6-1.6-.8-3.5-.8-5.3-.2-2 .7-3.7 2.3-4.6 4.3-.9 2.1-1 4.6-.1 6.9 1 2.6 3 4.7 5.5 5.7 2.7 1.1 5.7 1.1 8.5 0 3-1.3 5.5-3.8 6.7-6.9 1.3-3.2 1.2-6.8-.2-10.1-1.5-3.6-4.5-6.4-8.1-7.9-3.8-1.5-7.9-1.3-11.7.4-3.9 2-7.1 5.4-8.7 9.5-1.6 4.3-1.4 9.1.6 13.5 2.1 4.5 5.9 8.1 10.4 9.8 10.2 3.7 22.1-2.1 26-12.6 4-11.3-2.3-24.3-13.9-28.5-1-.4-1.6-1.5-1.2-2.6.4-1 1.5-1.6 2.6-1.2 13.6 5 21.1 20.4 16.3 33.7z" fill="url(#8332a4c0-73dd-4f9c-a3d5-67b448fbfa7d)"></path></svg><svg class="pp_svg_triangle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 50" aria-label="Triangle"><defs><linearGradient id="11c0361a-b3e4-4cf4-ae1b-efbdfc814224" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#6d47d9"></stop><stop offset="100%" stop-color="#00dcaf"></stop></linearGradient></defs><path opacity="0.2" d="M50.3,17.6l-15.5-2.3l-7-14.2c-0.7-1.5-2.9-1.5-3.6,0l-7,14.2L1.7,17.6c-1.6,0.2-2.3,2.2-1.1,3.4l11.3,11L9.2,47.7	c-0.3,1.6,1.4,2.9,2.9,2.1L26,42.4l13.9,7.4c1.5,0.8,3.2-0.5,2.9-2.1L40.2,32l11.2-11C52.6,19.8,51.9,17.8,50.3,17.6z M36.6,29.9	c-0.5,0.5-0.7,1.1-0.6,1.8l2.1,12.6l-11.2-6c-0.6-0.3-1.3-0.3-1.9,0l-11.2,6L16,31.7c0.1-0.6-0.1-1.3-0.6-1.8l-9.1-9l12.6-1.8	c0.7-0.1,1.2-0.5,1.5-1.1L26,6.5L31.6,18c0.3,0.6,0.9,1,1.5,1.1L45.7,21L36.6,29.9z" fill="url(#11c0361a-b3e4-4cf4-ae1b-efbdfc814224)"></path></svg> -->
 
-    <div class="post-data-container" data-post-id="2396">
+    <div class="post-data-container open" id="post_container">
       <div class="post-data-inner">
         <div class="post-media-renderer">
           <div id="post-data-cr" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
@@ -371,18 +267,18 @@
                 <!--https://demo.pixelphotoscript.com/media/upload/photos/2024/01/W5jWyHdbwLOcMxyplEPNWxIyKRWapHQcowlbjrZoGDk7FmC1na_14_ad5511d776762a0dfcf900258821c011_image.jpg-->
                 <!-- https://generated.vusercontent.net/placeholder.svg -->
                 <img
-                  src="https://demo.pixelphotoscript.com/media/upload/photos/2024/01/W5jWyHdbwLOcMxyplEPNWxIyKRWapHQcowlbjrZoGDk7FmC1na_14_ad5511d776762a0dfcf900258821c011_image.jpg"
-                  alt="Gif image" class="img-res">
+                  src="https://liblibai-online.vibrou.com/img/148ecce3d0a74e3ca867307cd77bc1cd/f18aae2133d9bf4cd89ad562ac5acbaecf442ae83389f07686c5368af1c0193d.jpg?x-oss-process=image/resize,w_764,m_lfit/format,webp"
+                  alt="XXXX" class="img-res">
               </div>
               <div class="item">
                 <img
-                  src="https://demo.pixelphotoscript.com/media/upload/photos/2024/01/Vvzm4DhO3rNfxhYkVz7VUOvgqtYtxWreBx1rrC1ZsnUsMYhSaS_14_ad5511d776762a0dfcf900258821c011_image.jpg"
-                  alt="Gif image" class="img-res">
+                  src="https://liblibai-online.vibrou.com/img/148ecce3d0a74e3ca867307cd77bc1cd/151b709e12e4b049c928d68b996dee4242dcb48aae912d5f67c11e4436bee624.jpg?x-oss-process=image/resize,w_764,m_lfit/format,webp"
+                  alt="XXXX" class="img-res">
               </div>
               <div class="item">
                 <img
                   src="https://demo.pixelphotoscript.com/media/upload/photos/2024/01/uB58I1b6c2BTUeUiw2hobsynQuzpm3WQE1hCQn55n5yC8bM6uO_14_ad5511d776762a0dfcf900258821c011_image.jpg"
-                  alt="Gif image" class="img-res">
+                  alt="XXXX" class="img-res">
               </div>
             </div>
             <a class="carousel-control-prev cr-controls" href="#post-data-cr" role="button" data-slide="prev">
@@ -407,33 +303,32 @@
         </div>
         <div class="sidebar">
           <div class="sidebar__inner">
-            <div class="header">
-              <div id="MASTER-USER">
-                <!--User-->
-                <div class="avatar">
-                  <img src="https://generated.vusercontent.net/placeholder.svg" alt="Avatar" class="img-circle img-res">
-                </div>
-                <span class="user-identity"></span>
-                <!--About User-->
-                <div class="uname">
-                  <div class="fluid">
-                    <a href="#">Jackson
-                      <span class="fluid">
-                        <span class="time-ago" title="2018-09-27T19:59:10+00:00"></span>
-                      </span>
-                      <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#00BCD4" class="verified-color feather feather-check-circle">
-                      <path d="M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"></path>
-                    </svg> -->
-                    </a>
-                    <button class="btn-follow pull-right" onclick="follow(3813,this);">
-                      <span><i class="fa fa-eye-slash" aria-hidden="true"></i> 正在关注</span>
-                    </button>
-                  </div>
+            <div class="header" id="MASTER-USER">
+              <!--User-->
+              <div class="avatar">
+                <img src="https://generated.vusercontent.net/placeholder.svg" alt="XXXX" class="img-circle img-res">
+              </div>
+              <span class="user-identity"></span>
+              <!--About User-->
+              <div class="uname">
+                <div class="fluid">
+                  <a href="#">Jackson Conan
+                    <span class="fluid">
+                      <span class="time-ago" title="2 days ago">2 days ago</span>
+                    </span>
+                    <!-- <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#00BCD4" class="verified-color feather feather-check-circle">
+                    <path d="M23,12L20.56,9.22L20.9,5.54L17.29,4.72L15.4,1.54L12,3L8.6,1.54L6.71,4.72L3.1,5.53L3.44,9.21L1,12L3.44,14.78L3.1,18.47L6.71,19.29L8.6,22.47L12,21L15.4,22.46L17.29,19.28L20.9,18.46L20.56,14.78L23,12M10,17L6,13L7.41,11.59L10,14.17L16.59,7.58L18,9L10,17Z"></path>
+                  </svg> -->
+                  </a>
+                  <button class="btn-follow pull-right">
+                    <span><i class="fa fa-eye-slash" aria-hidden="true"></i> 正在关注</span>
+                  </button>
                 </div>
               </div>
             </div>
             <!--About Text-->
             <div class="pp_pst_caption">
+              <h3>AICG</h3>
               <p data-caption>⁣Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                 incididunt ut labore et dxzcolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                 ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
@@ -446,7 +341,7 @@
               <ul class="post-comments-list">
                 <span class="main_post_comm">8 评论</span>
                 <!--About User comments-->
-                <li data-post-comment="1958">
+                <li>
                   <div class="user-avatar">
                     <img src="https://generated.vusercontent.net/placeholder.svg" class="img-circle">
                   </div>
@@ -457,7 +352,7 @@
                     </span>
                   </div>
                 </li>
-                <li data-post-comment="1958">
+                <li>
                   <div class="user-avatar">
                     <img src="https://generated.vusercontent.net/placeholder.svg" class="img-circle">
                   </div>
@@ -468,7 +363,7 @@
                     </span>
                   </div>
                 </li>
-                <li data-post-comment="1958">
+                <li>
                   <div class="user-avatar">
                     <img src="https://generated.vusercontent.net/placeholder.svg" class="img-circle">
                   </div>
@@ -479,7 +374,7 @@
                     </span>
                   </div>
                 </li>
-                <li data-post-comment="1958">
+                <li>
                   <div class="user-avatar">
                     <img src="https://generated.vusercontent.net/placeholder.svg" class="img-circle">
                   </div>
@@ -494,7 +389,7 @@
             </div>
             <div class="comment-box">
               <div class="votes">
-                <span class="like-post active" onclick="like_post('2396',this);" id="lb-like-post">
+                <span class="like-post active" id="lb-like-post">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
                     stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
                     class="feather feather-heart">
@@ -517,12 +412,12 @@
                     </svg>
                   </span>
                   <ul class="dropdown-menu zoom-up">
-                    <li onclick="report_post('2396',this);">
+                    <li>
                       <a href="javascript:void(0);">
                         举报这篇文章
                       </a>
                     </li>
-                    <li id="save-post" data-id="2396">
+                    <li>
                       <a href="javascript:void(0);">
                         保存帖子
                       </a>
@@ -531,7 +426,6 @@
                 </div>
               </div>
               <form class="form" action="javascript:void(0);">
-                <input type="hidden" name="hash" value="1538036216:22a929651b92c2716d2ae2782e881a97a9501a77">
                 <div class="text-input">
                   <div class="user-avatar">
                     <img class="img-circle" src="https://generated.vusercontent.net/placeholder.svg" alt="avatar" />
@@ -547,7 +441,6 @@
             </div>
           </div>
         </div>
-        <div class="clear"></div>
       </div>
       <div class="footer__container">
         <div id="modal-progress" class="hidden">
@@ -590,7 +483,7 @@
                 <span>每日穿搭&试衣间报告</span>
               </div>
               <div class="button">
-                <button onclick="follow(3833,this);"><span>关注</span></button>
+                <button><span>关注</span></button>
               </div>
             </div>
             <div class="item">
@@ -605,7 +498,7 @@
                 <span>日常小记—空瓶见真爱</span>
               </div>
               <div class="button">
-                <button onclick="follow(3832,this);"><span>关注</span></button>
+                <button><span>关注</span></button>
               </div>
             </div>
             <div class="item">
@@ -620,7 +513,7 @@
                 <span>吃一口就绝对放不下筷子的超级‼️</span>
               </div>
               <div class="button">
-                <button onclick="follow(3831,this);"><span>关注</span></button>
+                <button><span>关注</span></button>
               </div>
             </div>
             <div class="item">
@@ -635,7 +528,7 @@
                 <span>❤️解锁情侣最美拍照姿势</span>
               </div>
               <div class="button">
-                <button onclick="follow(3830,this);"><span>关注</span></button>
+                <button><span>关注</span></button>
               </div>
             </div>
             <div class="item">
@@ -650,7 +543,7 @@
                 <span>【瘦腿秘籍】每天5分钟</span>
               </div>
               <div class="button">
-                <button onclick="follow(3829,this);"><span>关注</span></button>
+                <button><span>关注</span></button>
               </div>
             </div>
             <div class="item">
@@ -664,16 +557,13 @@
                 <span>Ammar Tjr</span>
               </div>
               <div class="button">
-                <button onclick="follow(3829,this);"><span>关注</span></button>
+                <button><span>关注</span></button>
               </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-
   </main>
 
 
@@ -729,32 +619,32 @@
     <div class="em_body_navigation border-0 -active-links">
       <div class="item_link">
         <a id="mini_router_ltr_1" class="btns btns_navLink" aria-label="btnNavigation">
+          <div class="icon_current"><i class="ri-camera-lens-line"></i></div>
+          <div class="icon_active"><i class="ri-camera-lens-fill"></i></div>
+        </a>
+      </div>
+      <div class="item_link">
+        <a id="mini_router_ltr_2" class="btns btns_navLink" aria-label="btnNavigation">
+          <div class="icon_current"><i class="ri-movie-2-line"></i></div>
+          <div class="icon_active"><i class="ri-movie-2-fill"></i></div>
+        </a>
+      </div>
+      <div class="item_link">
+        <a href="#" id="mini_router_home" class="btns btns_navLink active" aria-label="btnNavigation">
           <div class="icon_current"><i class="ri-compass-4-line"></i></div>
           <div class="icon_active"><i class="ri-compass-4-fill"></i></div>
         </a>
       </div>
       <div class="item_link">
-        <a id="mini_router_ltr_2" class="btns btns_navLink" aria-label="btnNavigation">
-          <div class="icon_current"><i class="ri-newspaper-line"></i></div>
-          <div class="icon_active"><i class="ri-newspaper-fill"></i></div>
-        </a>
-      </div>
-      <div class="item_link">
-        <a href="#" id="mini_router_home" class="btns btns_navLink active" aria-label="btnNavigation">
-          <div class="icon_current"><i class="ri-home-5-line"></i></div>
-          <div class="icon_active"><i class="ri-home-5-fill"></i></div>
-        </a>
-      </div>
-      <div class="item_link">
         <a id="mini_router_rtl_1" class="btns btns_navLink" aria-label="btnNavigation">
-          <div class="icon_current"><i class="ri-stock-line"></i></div>
-          <div class="icon_active"><i class="ri-stock-fill"></i></div>
+          <div class="icon_current"><i class="ri-disc-line"></i></div>
+          <div class="icon_active"><i class="ri-disc-fill"></i></div>
         </a>
       </div>
       <div class="item_link">
         <a id="mini_router_rtl_2" class="btns btns_navLink" aria-label="btnNavigation">
-          <div class="icon_current"><i class="ri-user-4-line"></i></div>
-          <div class="icon_active"><i class="ri-user-4-fill"></i></div>
+          <div class="icon_current"><i class="ri-donut-chart-line"></i></div>
+          <div class="icon_active"><i class="ri-donut-chart-fill"></i></div>
         </a>
       </div>
     </div>
