@@ -1,10 +1,19 @@
 ﻿@import"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap";
 
 @media only screen and (min-width: 1026px) {
-  #MINI-UI {
+  #mini_ui {
 	display: none;
   }
 }
+
+.mini_ui_hidden {
+    display: none !important;
+    visibility: hidden !important;
+    transition-property: opacity;
+    -webkit-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
+}
+
 
 [sync-transformers-model-version="light-models"] .un-bottom-navigation .em_body_navigation {
   background-color: rgb(255 255 255 / 60%);
@@ -25,6 +34,9 @@
   padding-right: 20px;
   border-radius: 50px;
   box-shadow: 0 8px 20px rgb(32 54 86 / 14%);
+  transition-property: opacity;
+  -webkit-transition: 0.6s ease-in-out left;
+  transition: 0.6s ease-in-out left;
 }
 
 [sync-transformers-model-version="dark-models"] .un-bottom-navigation .em_body_navigation {

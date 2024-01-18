@@ -23,7 +23,7 @@
 
   <style>
     @media only screen and (max-width: 1026px) {
-      #MASTER-UI {
+      #master_ui {
         display: none;
       }
     }
@@ -32,11 +32,6 @@
       #main_user_info {
         display: none;
       }
-    }
-
-    /*Transition*/
-    #main_content {
-      opacity: 0;
     }
   </style>
 </head>
@@ -77,6 +72,32 @@
       }
     }
   </script>
+  <script type="text/javascript">
+    mobileScroll(
+        function (direction) {
+            try {
+                if (direction === 'down') {
+                    document.querySelector('.em_body_navigation').classList.add('mini_ui_hidden')
+                } else {
+                    document.querySelector('.em_body_navigation').classList.remove('mini_ui_hidden')
+                }
+            } catch (err) {
+            }
+        }
+    );
+    function mobileScroll(fn) {
+        var beforeScrollTop = document.documentElement.scrollTop || document.body.scrollTop,
+            fn = fn || function () {
+            };
+        window.addEventListener("scroll", function () {
+            var afterScrollTop = document.documentElement.scrollTop || document.body.scrollTop,
+                delta = afterScrollTop - beforeScrollTop;
+            if (delta === 0) return false;
+            fn(delta > 0 ? "down" : "up");
+            beforeScrollTop = afterScrollTop;
+        }, false);
+    }
+</script>
 
 
   <nav id="header_nav" class="navbar navbar-default navbar-fixed-top nav-down">
@@ -192,34 +213,32 @@
         </ul>
       </div>
 
-
-
-
     </div>
 
     <div id="second_header">
-      <ul>
-        <li class="pp_front_menu">
-          <small class="badge" id="badge_close"><i class="ri-close-fill" style="font-size: 20px;"></i></small>
+      <ul class="row">
+        <li class="col-md-4 pp_front_menu" id="badge_close">
+          <div class="button">
+            <a><span><i class="ri-close-fill" style="font-size: 20px;"></i></span></a>
+          </div>
         </li>
 
-        <li class="pp_front_menu">
-          <div class="user-avatar">
+        <li class="col-md-4 pp_front_menu">
+          <div class="col-md-4 user-avatar">
+            <span class="mini-user-identity"></span>
             <img
               src="https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-avt-0015_2ca5bf5c5c1253c92c5f32e6ab5f4706~c5_300x300.jpeg"
               alt="XXXX" width="40px" height="40px" class="img-circle">
           </div>
-          <span class="user-identity"></span>
-          <div class="uname">
-            <div class="fluid">
-              <a href="#">Jackson Conan</a>
+          <div class="col-xs-6 col-md-4 uname">
+            <div class="fluid content_serialization">
+              <a href="#"><span>Jackson Conan</span></a>
             </div>
           </div>
         </li>
-
-        <li class="pp_front_menu">
+        <li class="col-md-4 pp_front_menu">
           <div class="button">
-            <a><span>关注</span></a>
+            <a><span>Follow</span></a>
           </div>
         </li>
       </ul>
@@ -575,7 +594,7 @@
   </main>
 
 
-  <footer id="MASTER-UI">
+  <footer id="master_ui">
     <div class="container container-terms container-terms-main">
       <div class="footer__container">
         <div class="footer clearfix">
@@ -623,7 +642,7 @@
     </div>
   </footer>
 
-  <div class="un-bottom-navigation filter-blur" id="MINI-UI">
+  <div class="un-bottom-navigation filter-blur" id="mini_ui">
     <div class="em_body_navigation border-0 -active-links">
       <div class="item_link">
         <a id="mini_router_ltr_1" class="btns btns_navLink" aria-label="btnNavigation">
