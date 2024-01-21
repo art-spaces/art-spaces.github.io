@@ -1,0 +1,122 @@
+<!-- IMPORT HEADER START -->
+<nav id="header_nav" class="navbar navbar-default navbar-fixed-top nav-down">
+  <div class="container container-profile container-profile-header">
+    <div id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-left">
+        <li class="logo">
+          <a href="#">
+            <img src="https://demo.pixelphotoscript.com/media/img/logo.png" width="42px">
+          </a>
+        </li>
+        <li class="pp_front_menu" id="home_nav">
+          <a href="#">
+            <i class="feather feather-home ri-global-line" style="font-size: 22px; vertical-align: text-top;"></i>
+            <span>Space</span>
+          </a>
+        </li>
+        <li class="pp_front_menu exp_menu" id="explore_nav">
+          <a href="#">
+            <i class="feather feather-compass ri-compass-4-line"
+              style="font-size: 22px; vertical-align: text-top;"></i>
+            <span>Explore</span>
+          </a>
+        </li>
+        <li class="pp_front_menu reel_menu feather" id="reels_nav">
+          <a href="#">
+            <i class="feather feather-compass ri-camera-lens-fill"
+              style="font-size: 22px; vertical-align: text-top;"></i>
+            <span>Photo</span>
+          </a>
+        </li>
+        <li class="pp_front_menu feather feather-compass" id="go_pro_nav">
+          <a href="#">
+            <i class="feather feather-compass ri-movie-2-line" style="font-size: 22px; vertical-align: text-top;"></i>
+            <span>Video</span>
+          </a>
+        </li>
+        <li class="pp_front_menu feather feather-compass" id="go_pro_nav">
+          <a href="#">
+            <i class="feather feather-compass ri-disc-line" style="font-size: 22px; vertical-align: text-top;"></i>
+            <span>Music</span>
+          </a>
+        </li>
+
+        <li class="pp_front_menu last_menu exp_menu " id="store_nav">
+          <a href="#">
+            <i class="feather feather-compass ri-donut-chart-line"
+              style="font-size: 22px; vertical-align: text-top;"></i>
+            <span>Store</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li class="hide_head_link">
+          <a href="#" class="_messages">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#currentColor">
+              <path
+                d="M12.87,15.07L10.33,12.56L10.36,12.53C12.1,10.59 13.34,8.36 14.07,6H17V4H10V2H8V4H1V6H12.17C11.5,7.92 10.44,9.75 9,11.35C8.07,10.32 7.3,9.19 6.69,8H4.69C5.42,9.63 6.42,11.17 7.67,12.56L2.58,17.58L4,19L9,14L12.11,17.11L12.87,15.07M18.5,10H16.5L12,22H14L15.12,19H19.87L21,22H23L18.5,10M15.88,17L17.5,12.67L19.12,17H15.88Z">
+              </path>
+            </svg>
+            <small class="badge" id="new__messages">9</small>
+          </a>
+        </li>
+        <li>
+          <div class="dropdown notifications-list" id="get-notifications">
+            <span class="dropdown-toggle pointer" data-toggle="dropdown">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-bell">
+                <path d="M22 17H2a3 3 0 0 0 3-3V9a7 7 0 0 1 14 0v5a3 3 0 0 0 3 3zm-8.27 4a2 2 0 0 1-3.46 0"></path>
+              </svg>
+              <small class="badge" id="new__notif">6</small>
+            </span>
+            <div class="dropdown-menu zoom">
+              <div class="header">Notifications
+                <a href="https://demo.pixelphotoscript.com/settings/notifications/yefnyqy"
+                  data-ajax="ajax_loading.php?app=settings&amp;apph=settings&amp;user=yefnyqy&amp;page=notifications">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                    class="feather feather-sliders">
+                    <line x1="4" y1="21" x2="4" y2="14"></line>
+                    <line x1="4" y1="10" x2="4" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="12"></line>
+                    <line x1="12" y1="8" x2="12" y2="3"></line>
+                    <line x1="20" y1="21" x2="20" y2="16"></line>
+                    <line x1="20" y1="12" x2="20" y2="3"></line>
+                    <line x1="1" y1="14" x2="7" y2="14"></line>
+                    <line x1="9" y1="8" x2="15" y2="8"></line>
+                    <line x1="17" y1="16" x2="23" y2="16"></line>
+                  </svg>
+                </a>
+              </div>
+              <ul id="notifications__list">
+                <div class="empty_state"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                      <path fill="currentColor"
+                        d="M18.586 20H4a.5.5 0 0 1-.4-.8l.4-.533V10c0-1.33.324-2.584.899-3.687L1.393 2.808l1.415-1.415 19.799 19.8-1.415 1.414L18.586 20zM20 15.786L7.559 3.345A8 8 0 0 1 20 10v5.786zM9.5 21h5a2.5 2.5 0 1 1-5 0z">
+                      </path>
+                    </svg></span>
+                  <p>You do not have any notifications</p>
+                </div>
+              </ul>
+              <div class="preloader hidden">
+                <div id="pp_loader">
+                  <div class="speeding_wheel"></div>
+                </div>
+              </div>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="loadding-pgbar">
+    <div class="bar"></div>
+  </div>
+
+</nav>
+
+<!-- IMPORT HEADER END -->

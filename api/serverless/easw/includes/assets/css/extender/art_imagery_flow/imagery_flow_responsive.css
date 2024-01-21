@@ -1,0 +1,4786 @@
+/*
+	---------------------------------------------------
+	
+	           Styles for Mobile Devices
+
+	---------------------------------------------------
+*/
+
+
+/* 1420px (devices and browsers) */
+@media only screen and (min-width: 1420px) and (max-width: 1660px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+.header-center { 
+    width: 1400px; 
+}
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 1400px; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 1400px; 
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 135px 25px 135px;
+}
+
+.right-content { 
+    width: 970px; 
+    float: right; 
+    min-height: 100rem;
+}
+
+.halfpage { 
+    width: 570px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 85px 0 85px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 1004px; 
+    float: left; /* right/left */
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+/* -- Search -- */
+#searchform2 { 
+    width: 280px;  
+} 
+
+#searchform2 #s { 
+    width: 200px; 
+}
+ 
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Top Authors -- */
+.authors {
+    width: 1400px; 
+}
+
+ul.list-authors { 
+    margin-left: -30.3px;
+}
+
+ul.list-authors li { 
+    margin: 0 0 20px 28px;
+}
+
+ul.list-authors li:nth-last-child(1) {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */
+ul.modern-grid li { 
+    width: 157.4px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 157.4px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252              { 
+    width: 157.4px;
+}
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 216.66px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 216.66px;
+} 
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Top entry - */
+.entry-top {
+    width: 634px; 
+}
+
+/* -- Media Content Box 1004-64=937 -- */
+div.media-single-content {  
+    width: 937px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 390px; 
+}
+
+.not-found #searchform2 { 
+    width: 380px !important; 
+}
+
+.not-found #searchform2 #s {
+    width: 300px !important;
+    height: 20px !important;
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 734px; 
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 50px;
+}
+
+.one_half_last_sr {
+    width: 330px;
+    margin-right: 0; 
+}
+
+
+/* -- Related ARTICLES (single page) -- */
+ul.article_list { 
+    width: 350px;
+    height: auto;
+    float: left;
+    border-radius: 2px;
+    margin: -20px 0 0 -20px;
+}
+
+ul.article_list li figure.snip1252  { width: 155px; }
+ul.article_list li      { width: 155px; margin: 20px 0 5px 20px; }          
+ul.article_list li img  { width: 155px; height: auto; max-height: 150px; }
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    margin-left: 235px;
+} 
+
+#single-share  {
+    width: 70px;
+    margin: 40px 0 29px 33px; 
+}
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 734px; 
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 734px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 40px; 
+}
+
+.entry h1.page-title {
+    font-size: 42px; 
+}
+
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 734px; 
+}
+
+.prev-entry {
+    padding: 35px 40px 35px 40px; 
+}
+
+.prev-entry2 {
+    padding: 35px 40px 35px 40px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 734px;
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 734px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 654px; 
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 654px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 198px !important; 
+}
+
+
+/* -- Products -- */
+ul.products {
+	margin-top: 30px !important;
+}
+
+ul.products li {
+	width: 245px;
+	text-align: center;
+}
+
+ul.products li img {
+	width: 245px;
+	height: 245px;
+}
+
+
+/* -- Products full width page-- */
+div.wrap-fullwidth-bg .woocommerce ul.columns-4 li.product,
+div.wrap-fullwidth-bg .woocommerce-page ul.columns-4 li.product {
+	width: 20.05% !important;
+}
+
+div.wrap-fullwidth-bg .woocommerce-page ul.columns-4 li.product img {
+	width: 100% !important;
+}
+
+div.wrap-fullwidth-bg .woocommerce ul.products.columns-3 li.product,
+div.wrap-fullwidth-bg .woocommerce-page ul.products.columns-3 li.product {
+	width: 30.75% !important;
+}
+
+div.wrap-fullwidth-bg .woocommerce-page ul.products.columns-3 li.product img,
+.woocommerce ul.products li.product a img {
+	width: 100% !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 1400px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+
+/* ------------ */
+} /* end 1400px */
+
+
+
+
+
+
+
+
+
+/* 1350px (devices and browsers) */
+@media only screen and (min-width: 1250px) and (max-width: 1419px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+.header-center { 
+    width: 1230px; 
+}
+
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 1230px; 
+    height: auto; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 1230px; 
+    height: auto; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 135px 25px 135px;
+}
+
+.right-content { 
+    width: 970px; 
+    float: right; 
+    min-height: 100rem;
+}
+
+.halfpage { 
+    width: 570px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 85px 0 85px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 830px; /* -50px */
+    float: left; 
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search -- */
+#searchform2 { 
+    width: 150px;  
+} 
+
+#searchform2 #s { 
+    width: 70px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Top Authors -- */
+.authors {
+    width: 1230px; 
+}
+
+ul.list-authors { 
+    margin-left: -30.3px;
+}
+
+ul.list-authors li { 
+    margin: 0 0 20px 28px;
+}
+
+ul.list-authors li:nth-last-child(1),
+ul.list-authors li:nth-last-child(2),
+ul.list-authors li:nth-last-child(3) {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */
+ul.modern-grid li { 
+    width: 158.5px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 158.5px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252              { 
+    width: 158.5px;
+}
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 230px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 230px;
+} 
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Top entry - */
+.entry-top {
+    width: 666px; 
+}
+
+/* -- Media Content Box 830-64=766 -- */
+div.media-single-content {  
+    width: 766px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 390px; 
+}
+
+.not-found #searchform2 { 
+    width: 380px !important; 
+}
+
+.not-found #searchform2 #s {
+    width: 300px !important;
+    height: 20px !important;
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 666px; 
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 290px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.one_half_sr { 
+    padding: 10px 20px 15px 10px; 
+}
+
+.one_half_last_sr {
+    width: 316px;
+    margin-right: 0; 
+}
+
+
+/* -- Related ARTICLES (single page) -- */
+ul.article_list { 
+    width: 336px;
+    height: auto;
+    float: left;
+    border-radius: 2px;
+    margin: -20px 0 0 -20px; 
+}
+
+ul.article_list li figure.snip1252  { width: 148px; }
+ul.article_list li      { width: 148px; margin: 20px 0 5px 20px; }          
+ul.article_list li img  { width: 148px; height: auto; max-height: 150px; }
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    margin-left: 235px;
+} 
+
+#single-share  {
+    width: 70px;
+    margin: 40px 0 29px 0px; 
+}
+
+
+/* -- Single Like Box -- */
+.single-like-box {
+    margin-left: 0px;
+}
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 666px; 
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 666px; 
+}
+
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 666px; 
+}
+
+.prev-entry {
+    padding: 35px 25px 35px 25px; 
+}
+
+.prev-entry2 {
+    padding: 35px 25px 35px 25px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 40px; 
+}
+
+.entry h1.page-title {
+    font-size: 42px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 666px;
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 666px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 586px; 
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 586px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 175px !important; 
+}
+
+
+/* -- Products -- */
+ul.products {
+	margin-top: 30px !important;
+}
+
+ul.products li {
+	width: 245px;
+	text-align: center;
+}
+
+ul.products li img {
+	width: 245px;
+	height: 245px;
+}
+
+
+/* -- Products full width page-- */
+div.wrap-fullwidth-bg .woocommerce ul.columns-4 li.product,
+div.wrap-fullwidth-bg .woocommerce-page ul.columns-4 li.product {
+	width: 20.05% !important;
+}
+
+div.wrap-fullwidth-bg .woocommerce-page ul.columns-4 li.product img {
+	width: 100% !important;
+}
+
+div.wrap-fullwidth-bg .woocommerce ul.products.columns-3 li.product,
+div.wrap-fullwidth-bg .woocommerce-page ul.products.columns-3 li.product {
+	width: 30.75% !important;
+}
+
+div.wrap-fullwidth-bg .woocommerce-page ul.products.columns-3 li.product img,
+.woocommerce ul.products li.product a img {
+	width: 100% !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 1230px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+
+/* ------------ */
+} /* end 1230px */
+
+
+
+
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 1025px) and (max-width: 1249px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+.header-center { 
+    width: 980px; 
+}
+
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+.main-header { 
+    float: right;
+}
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 980px; 
+    height: auto; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 980px; 
+    height: auto; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 80px 25px 80px;
+}
+
+.right-content { 
+    width: 970px; 
+    float: right; 
+    min-height: 100rem;
+}
+
+.halfpage { 
+    width: 570px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 85px 0 85px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 610px; /* -50px */
+    float: left; 
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search -- */
+#searchform2 { 
+    width: 380px;  
+} 
+
+#searchform2 #s { 
+    width: 300px; 
+}
+
+
+/* -- Header "Add Post" big button -- */
+header a.bt {
+    margin-top: 35px;
+    float: left;
+    margin-left: 25px; 
+}
+
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a,
+#respMenu li.current-menu-ancestor a,
+#respMenu li.current-menu-item a,
+#respMenu li.current-menu-parent a {
+    background: transparent !important;
+    color: #FFF !important;
+}
+
+.ant-responsive-menu li.login a { 
+    color: #000 !important;
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.register a { 
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.login a:hover {
+    color: #fff !important;
+}
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Featured Container -- */
+.featured-container {
+    width: 900px;
+    height: 300px; 
+}
+
+.header-boxleft {
+    width: 380px;
+    height: 300px;
+    float: left; 
+}
+
+.header-right {
+    width: 480px;
+    height: 300px;
+    float: right;
+} 
+
+/* -- Top Authors -- */
+.authors {
+    width: 980px; 
+}
+
+ul.list-authors { 
+    margin-left: -30.3px;
+}
+
+ul.list-authors li { 
+    margin: 0 0 20px 31px;
+}
+
+ul.list-authors li:nth-last-child(1),
+ul.list-authors li:nth-last-child(2),
+ul.list-authors li:nth-last-child(3),
+ul.list-authors li:nth-last-child(4),
+ul.list-authors li:nth-last-child(5),
+ul.list-authors li:nth-last-child(6) {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */
+ul.modern-grid li { 
+    width: 180px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 180px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252              { 
+    width: 180px;
+}
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 230px;
+    border-radius: 16px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 230px;
+} 
+
+
+/* -- Home About boxes -- */
+.box-about-full {
+    width: 960px; 
+}
+
+.box-about-wrap {
+    width: 960px;
+    margin: 100px auto 0 auto;
+}
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Top entry - */
+.entry-top {
+    width: 546px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 36px;
+    font-weight: 500; 
+    line-height: 46px;
+    margin: 12px 0 0 0; 
+}
+
+.entry h1.page-title {
+    font-size: 36px;
+    font-weight: 500; 
+    line-height: 46px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+
+/* -- Media Content Box 830-64=766 -- */
+div.media-single-content {  
+    width: 546px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 390px; 
+}
+
+.not-found #searchform2 { 
+    width: 380px !important; 
+}
+
+.not-found #searchform2 #s {
+    width: 300px !important;
+    height: 20px !important;
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 446px; 
+}
+
+.one_half_sr {
+  padding: 25px 73px 15px 73px;
+  background-color: #fafafa;
+  border-radius: 5px; 
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.one_half_last_sr {
+    width: 446px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    margin-left: 235px;
+} 
+
+#single-share  {
+    width: 70px;
+    margin: 40px 0 29px 0px; 
+}
+
+
+/* -- Single Like Box -- */
+.single-like-box {
+    margin-left: 0px;
+}
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 446px; 
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 446px; 
+}
+
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 446px; 
+}
+
+.prev-articles .one_half { 
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.prev-articles .one_half_last {
+	width: 100%;
+}
+
+.prev-entry {
+    padding: 35px 40px 35px 40px; 
+}
+
+.prev-entry2 {
+    padding: 35px 40px 35px 40px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar { 
+    width: 350px; 
+    float: left; 
+    margin-left: 0; 
+    margin-top: -25px; 
+} 
+
+.sidebar-sticky { 
+    width: 350px; 
+    float: left; 
+    margin-left: 0; 
+}
+
+
+/* -- Sidebar widgets-- */
+.sidebar .widget {
+    width: 300px;
+    padding: 15px 15px;
+    margin-top: 25px;
+    margin-left: 30px; 
+}
+
+/* -- Sidebar -- */
+.sidebar-sticky .widget {
+    width: 300px;
+    padding: 15px 15px;
+    margin-top: 25px;
+    margin-left: 30px; 
+} 
+
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 446px;
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 446px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+	/* -- 404 page -- */
+#anthemes-404 {
+    padding: 100px 0 30px 0; 
+}
+
+#anthemes-404 .middle-404 {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#anthemes-404 h1 {
+	font-size: 60px;
+	padding: 0 0 40px 0;
+}
+
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 366px; 
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 366px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 168px !important; 
+}
+
+
+/* -- Shop -- */
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    font-size: 14px;
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 980px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+
+
+/* ------------ */
+} /* end 1025px */
+
+
+
+
+
+
+
+
+
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 780px) and (max-width: 1024px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+.header-center { 
+    width: 750px; 
+}
+
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+
+.main-header { 
+    float: right; 
+}
+
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 750px; 
+    height: auto; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 750px; 
+    height: auto; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 80px 25px 80px;
+}
+
+.halfpage { 
+    width: 570px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 85px 0 85px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 750px; /* -50px */
+    float: left; 
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search -- */
+#searchform2 { 
+    width: 280px;  
+} 
+
+#searchform2 #s { 
+    width: 200px; 
+}
+
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a,
+#respMenu li.current-menu-ancestor a,
+#respMenu li.current-menu-item a,
+#respMenu li.current-menu-parent a {
+	background: transparent !important;
+	color: #FFF !important;
+}
+
+.ant-responsive-menu li.login a { 
+    color: #000 !important;
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.register a { 
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.login a:hover {
+    color: #fff !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+ 
+/* -- Featured Container -- */
+.featured-container {
+    width: 750px;
+    height: 300px; 
+}
+
+.header-boxleft {
+    width: 380px;
+    height: 300px;
+    float: left; 
+}
+
+.header-right {
+    width: 320px;
+    height: 300px;
+    float: right;
+} 
+
+/* -- Top Authors -- */
+.authors {
+    width: 750px; 
+}
+
+ul.list-authors { 
+    margin-left: -30.3px;
+}
+
+ul.list-authors li { 
+    margin: 0 0 20px 25px;
+}
+
+ul.list-authors li:nth-last-child(-n+8) {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */
+ul.modern-grid li { 
+    width: 172px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 172px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252              { 
+    width: 172px;
+}
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 236.66px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 236.66px;
+} 
+
+
+/* -- Home About boxes -- */
+.box-about-full {
+    width: 750px; 
+}
+
+.box-about-wrap {
+    width: 750px;
+    margin: 100px auto 0 auto;
+}
+
+.box_about,
+.box_about_last {
+    margin-left: -6px;
+    width: 30.5%; 
+    margin-bottom: 10px;
+    margin-right: 4%;
+}
+
+.box_about_last {
+    margin-right: 0;
+}
+
+.box-content h3 {
+    font-size: 22px;
+} 
+
+.box-about-wrap .box-content {
+    padding: 25px;
+    height: 300px;
+}
+
+
+/* -- Home Title Animation -- */
+.text-type-animation{ 
+  font-size:38px;
+}
+
+div.middle-home-title p  { 
+    margin-top: 10px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Top entry - */
+.entry-top {
+    width: 686px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 36px;
+    font-weight: 500; 
+    line-height: 46px;
+    margin: 12px 0 0 0; 
+}
+
+.entry h1.page-title {
+    font-size: 36px;
+    font-weight: 500; 
+    line-height: 46px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+
+/* -- Media Content Box 830-64=766 -- */
+div.media-single-content {  
+    width: 686px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 390px; 
+}
+
+.not-found #searchform2 { 
+    width: 380px !important; 
+}
+
+.not-found #searchform2 #s {
+    width: 300px !important;
+    height: 20px !important;
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 586px; 
+}
+
+.one_half_sr {
+  padding: 25px 143px 15px 143px;
+  background-color: #fafafa;
+  border-radius: 5px; 
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.one_half_last_sr {
+    width: 586px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+
+/* -- Related ARTICLES (single page) -- */
+ul.article_list { 
+    width: 606px;
+    height: auto;
+    float: left;
+    border-radius: 2px;
+    margin: -20px 0 0 -20px; 
+}
+
+ul.article_list li figure.snip1252  { width: 182px; }
+ul.article_list li      { width: 182px; margin: 20px 0 5px 20px; }          
+ul.article_list li img  { width: 182px; height: auto; max-height: 150px; }
+ul.article_list li:nth-last-child(1) { display: none; }
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    margin-left: 235px;
+} 
+
+#single-share  {
+    width: 70px;
+    margin: 40px 0 29px 0px; 
+}
+
+
+/* -- Single Like Box -- */
+.single-like-box {
+    margin-left: 0px;
+}
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 586px; 
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 586px; 
+}
+
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 586px; 
+}
+
+.prev-articles .one_half { 
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.prev-articles .one_half_last {
+	width: 100%;
+}
+
+.prev-entry {
+    padding: 35px 40px 35px 40px; 
+}
+
+.prev-entry2 {
+    padding: 35px 40px 35px 40px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar { 
+    width: 350px; 
+    float: left; 
+    margin-left: 0; 
+    margin-top: 25px;  
+    margin-right: 40px;
+} 
+
+.sidebar-sticky { 
+    width: 350px; 
+    float: left; 
+    margin-left: 0;
+    margin-top: 25px; 
+}
+
+
+/* -- Sidebar widgets-- */
+.sidebar .widget {
+    width: 300px;
+    padding: 30px 30px;
+    margin-top: 25px;
+    margin-left: 0px; 
+}
+
+/* -- Sidebar -- */
+.sidebar-sticky .widget {
+    width: 300px;
+    padding: 30px 30px;
+    margin-top: 25px;
+    margin-left: 0px; 
+} 
+
+
+/* -- Subscribe widget -- */
+.subscribe-widget input {
+    width: 70%; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 586px;
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 586px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+	/* -- 404 page -- */
+#anthemes-404 {
+    padding: 100px 0 30px 0; 
+}
+
+#anthemes-404 .middle-404 {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#anthemes-404 h1 {
+	font-size: 60px;
+	padding: 0 0 40px 0;
+}
+
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 506px; 
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 506px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 148px !important; 
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 750px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+
+/* ------------ */
+} /* end 768px */
+
+
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 610px) and (max-width: 779px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+.header-center { 
+    width: 580px; 
+}
+
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+
+.main-header { 
+    float: right;
+}
+
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 580px; 
+    height: auto; 
+    margin: 30px auto 70px auto; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 580px; 
+    height: auto; 
+    margin: 30px auto 70px auto; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 50px 25px 50px;
+}
+
+.halfpage { 
+    width: 570px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 85px 0 85px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 580px; /* -50px */
+    float: left; 
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search -- */
+#searchform2 { 
+    width: 150px;  
+} 
+
+#searchform2 #s { 
+    width: 70px; 
+} 
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a,
+#respMenu li.current-menu-ancestor a,
+#respMenu li.current-menu-item a,
+#respMenu li.current-menu-parent a {
+    background: transparent !important;
+    color: #FFF !important;
+}
+
+.ant-responsive-menu li.login a { 
+    color: #000 !important;
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.register a { 
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.login a:hover {
+    color: #fff !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Featured Container -- */
+.featured-container {
+    width: 580px; 
+} 
+
+.header-boxleft {
+    width: 580px;
+    height: auto; 
+    margin-bottom: 50px;
+}
+
+.header-right {
+    width: 580px; 
+    margin-bottom: 40px;
+} 
+
+
+/* -- Top Authors -- */
+.authors {
+    width: 580px; 
+}
+
+ul.list-authors { 
+    margin-left: -30.3px;
+}
+
+ul.list-authors li { 
+    margin: 0 0 20px 25px;
+}
+
+ul.list-authors li:nth-last-child(-n+10) {
+    display: none;
+}
+ 
+
+/* -- Menu home-links (home) -- */
+ul.menu-home-links li.right {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */
+ul.modern-grid li { 
+    width: 180px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 180px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252              { 
+    width: 180px;
+}
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 180px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 180px;
+} 
+
+
+/* -- Home About boxes -- */
+.box-about-full {
+    width: 580px; 
+}
+
+.box-about-full h3 {
+    font-size: 36px;
+    line-height: 40px; 
+    margin-bottom: 25px;
+}
+
+.box-about-wrap {
+    width: 580px;
+    margin: 100px auto 0 auto;
+}
+
+.box_about,
+.box_about_last {
+    margin-left: -6px;
+    width: 30.5%;
+    height: 360px;
+    margin-bottom: 10px;
+    margin-right: 4%;
+}
+
+.box_about_last {
+    margin-right: 0;
+}
+
+.box-content h3 {
+    font-size: 18px;
+} 
+
+.box-about-wrap .box-content {
+    padding: 15px;
+    height: 320px;
+} 
+
+
+/* -- Home Title Animation -- */
+.text-type-animation{ 
+  font-size: 38px;
+  line-height: 45px;
+}
+
+div.middle-home-title p  { 
+    margin-top: 10px; 
+}
+
+div.middle-home-title {
+    margin: 20px auto 25px auto; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Top entry - */
+.entry-top {
+    width: 516px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 34px;
+    font-weight: 500; 
+    line-height: 36px;
+    margin: 12px 0 0 0; 
+}
+
+.entry h1.page-title {
+    font-size: 36px;
+    font-weight: 500; 
+    line-height: 46px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+
+/* -- Media Content Box 830-64=766 -- */
+div.media-single-content {  
+    width: 516px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 390px; 
+}
+
+.not-found #searchform2 { 
+    width: 380px !important; 
+}
+
+.not-found #searchform2 #s {
+    width: 300px !important;
+    height: 20px !important;
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 486px; 
+}
+
+.one_half_sr {
+  padding: 25px 93px 15px 93px;
+  background-color: #fafafa;
+  border-radius: 5px; 
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.one_half_last_sr {
+    width: 486px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+
+/* -- Related ARTICLES (single page) -- */
+ul.article_list { 
+    width: 506px;
+    height: auto;
+    float: left;
+    border-radius: 2px;
+    margin: -20px 0 0 -20px; 
+}
+
+ul.article_list li figure.snip1252  { width: 233px; }
+ul.article_list li      { width: 233px; margin: 20px 0 5px 20px; }          
+ul.article_list li img  { width: 233px; height: auto; max-height: 150px; } 
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    margin-left: 235px;
+} 
+
+#single-share  {
+    width: 50px;
+    margin: 40px 0 29px -10px; 
+
+}
+
+
+/* -- Single Like Box -- */
+.single-like-box {
+    margin-left: -10px;
+    width: 50px;
+}
+
+.single-like-box .thumbs-rating-container {
+    float: right;
+    margin: 2px 0 0 5px;
+}
+
+
+/* -- Single Download button -- */
+section.download-button { 
+    padding: 25px 15px 35px 15px;
+}
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 486px; 
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 486px; 
+}
+
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 486px; 
+}
+
+.prev-articles .one_half { 
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.prev-articles .one_half_last {
+	width: 100%;
+}
+
+.prev-entry {
+    padding: 35px 40px 35px 40px; 
+}
+
+.prev-entry2 {
+    padding: 35px 40px 35px 40px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar { 
+    width: 580px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 25px;  
+    margin-right: 40px;
+} 
+
+.sidebar-sticky { 
+    width: 580px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px; 
+}
+
+
+/* -- Sidebar widgets-- */
+.sidebar .widget {
+    width: 300px;
+    padding: 30px 140px;
+    margin-top: 25px;
+    margin-left: 0px; 
+}
+
+/* -- Sidebar -- */
+.sidebar-sticky .widget {
+    width: 300px;
+    padding: 30px 140px;
+    margin-top: 25px;
+    margin-left: 0px; 
+} 
+
+
+/* -- Subscribe widget -- */
+.subscribe-widget input {
+    width: 70%; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 486px;
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 486px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+	/* -- 404 page -- */
+#anthemes-404 {
+    padding: 100px 0 30px 0; 
+}
+
+#anthemes-404 .middle-404 {
+	max-width: 650px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#anthemes-404 h1 {
+	font-size: 60px;
+	padding: 0 0 40px 0;
+}
+
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 406px; 
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 406px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 43% !important; 
+}
+
+
+/* -- Shop Style -- */
+.woocommerce ul.products[class*=columns-] li.product,
+.woocommerce-page ul.products[class*=columns-] li.product {
+	width: 48% !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    font-size: 14px;
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 580px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+footer .one_half,
+footer .one_half_last { 
+	width: 100%;
+    padding-top: 60px;
+}
+
+footer .one_half_last {
+	margin-right: 0px;
+	padding-top: 30px;
+}
+
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+
+/* ------------ */
+} /* end 580px */
+
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 609px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+.header-center { 
+    width: 460px; 
+}
+
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+
+.main-header { 
+    float: right;
+}
+
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 460px; 
+    height: auto; 
+    margin: 30px auto 70px auto; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 460px; 
+    height: auto; 
+    margin: 30px auto 70px auto; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 50px 25px 50px;
+}
+
+.halfpage { 
+    width: 430px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 35px 0 35px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 460px; /* -50px */
+    float: left; 
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search -- */
+#searchform2 { 
+    width: 130px;  
+} 
+
+#searchform2 #s { 
+    width: 75px; 
+} 
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a,
+#respMenu li.current-menu-ancestor a,
+#respMenu li.current-menu-item a,
+#respMenu li.current-menu-parent a {
+    background: transparent !important;
+    color: #FFF !important;
+}
+
+.ant-responsive-menu li.login a { 
+    color: #000 !important;
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.register a { 
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.login a:hover {
+    color: #fff !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Featured Container -- */
+.featured-container {
+    width: 460px; 
+    margin: 70px auto 70px auto;
+} 
+
+.header-boxleft {
+    width: 460px;
+    height: auto; 
+    margin-bottom: 50px;
+}
+
+.header-boxleft-detail h1 {
+    font-size: 30px;
+}
+
+.header-right {
+    width: 460px; 
+    margin-bottom: 40px;
+} 
+
+
+/* -- Top Authors -- */
+.authors {
+    width: 460px; 
+    height: 50px;
+}
+
+ul.list-authors { 
+    margin-left: -15px;
+}
+
+ul.list-authors li { 
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+ul.list-authors li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    padding: 3px;
+}
+
+ul.list-authors li:nth-last-child(-n+10) {
+    display: none;
+}
+
+div.list-trophy {
+    margin: -70px 0 0 35px;
+}
+
+a.circle-new-author { 
+    width: 50px;
+    height: 50px; 
+    margin-left: 17px; 
+    padding: 5px;    
+}
+
+a.circle-new-author i {
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+
+/* -- Menu home-links (home) -- */
+ul.menu-home-links li.right {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */ 
+ul.modern-grid li { 
+    width: 140px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 140px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252              { 
+    width: 140px;
+}
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 220px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 220px;
+} 
+
+
+/* -- Home About boxes -- */
+.box-about-full {
+    width: 460px; 
+}
+
+.box-about-full h3 {
+    font-size: 30px;
+    line-height: 30px; 
+    margin-bottom: 25px;
+}
+
+.box-about-wrap {
+    width: 450px;
+    margin: 100px auto 0 auto;
+}
+
+.box_about,
+.box_about_last {
+    margin-left: 0px;
+    width: 100%;
+    height: 320px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+.box_about_last {
+    margin-right: 0;
+} 
+
+.box-about-wrap .box-content {
+    padding: 35px;
+    height: auto;
+}
+
+
+/* -- learn-more / read-more button -- */
+.learn-more {
+    margin-left: 13px;
+}
+
+
+/* -- Home Title Animation -- */
+.text-type-animation{ 
+  font-size: 32px;
+  line-height: 32px;
+}
+
+div.middle-home-title p  { 
+    margin-top: 10px; 
+}
+
+div.middle-home-title {
+    margin: 20px auto 0px auto; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Entry source-link -- */
+div.article-source-link a {
+    margin: 10px; 
+    font-size: 16px;
+    font-weight: 700; 
+}
+
+
+/* - Top entry - */
+.entry-top {
+    width: 396px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 34px;
+    font-weight: 500; 
+    line-height: 36px;
+    margin: 12px 0 0 0; 
+}
+
+.entry h1.page-title {
+    font-size: 36px;
+    font-weight: 500; 
+    line-height: 46px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+
+/* -- Media Content Box 830-64=766 -- */
+div.media-single-content {  
+    width: 396px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 360px; 
+    padding: 50px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.not-found #searchform2 { 
+    width: 350px !important; 
+}
+
+.not-found #searchform2 #s {
+    width: 270px !important;
+    height: 20px !important;
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 366px; 
+}
+
+.one_half_sr {
+  padding: 25px 33px 15px 33px;
+  background-color: #fafafa;
+  border-radius: 5px; 
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.one_half_last_sr {
+    width: 366px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+
+/* -- Related ARTICLES (single page) -- */
+ul.article_list { 
+    width: 386px;
+    height: auto;
+    float: left;
+    border-radius: 2px;
+    margin: -20px 0 0 -20px; 
+}
+
+ul.article_list li figure.snip1252  { width: 173px; }
+ul.article_list li      { width: 173px; margin: 20px 0 5px 20px; }          
+ul.article_list li img  { width: 173px; height: auto; max-height: 150px; } 
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    margin-left: 235px;
+} 
+
+#single-share  {
+    width: 50px;
+    margin: 40px 0 29px -10px; 
+
+}
+
+
+/* -- Single Like Box -- */
+.single-like-box {
+    margin-left: -10px;
+    width: 50px;
+}
+
+.single-like-box .thumbs-rating-container {
+    float: right;
+    margin: 2px 0 0 5px;
+}
+
+
+/* -- Single Download button -- */
+section.download-button { 
+    padding: 25px 15px 35px 15px;
+}
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 366px; 
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 366px; 
+}
+
+img.alignleft,
+div.alignleft { 
+	float: none;
+}
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 366px; 
+}
+
+.prev-articles .one_half { 
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.prev-articles .one_half_last {
+	width: 100%;
+}
+
+.prev-entry {
+    padding: 35px 40px 35px 40px; 
+}
+
+.prev-entry2 {
+    padding: 35px 40px 35px 40px; 
+}
+
+
+/* -- About Author -- */
+.author-left-meta img.avatar {
+	margin-top: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.author-info p {
+    margin-left: -30px !important; 
+    margin-top: 10px;
+    float: left;
+}
+
+.author-left-meta {
+    width: 40px;
+    height: 50px; 
+}
+
+ul.author-social-top { 
+    margin: 0px 0 0 -30px !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar { 
+    width: 460px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 25px;  
+    margin-right: 40px;
+} 
+
+.sidebar-sticky { 
+    width: 460px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px; 
+}
+
+
+/* -- Sidebar widgets-- */
+.sidebar .widget {
+    width: 300px;
+    padding: 30px 80px;
+    margin-top: 25px;
+    margin-left: 0px; 
+}
+
+/* -- Sidebar -- */
+.sidebar-sticky .widget {
+    width: 300px;
+    padding: 30px 80px;
+    margin-top: 25px;
+    margin-left: 0px; 
+} 
+
+
+/* -- Subscribe widget -- */
+.subscribe-widget input {
+    width: 70%; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 366px;
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 366px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+	/* -- 404 page -- */
+#anthemes-404 {
+    padding: 50px 0 30px 0; 
+}
+
+#anthemes-404 .middle-404 {
+	max-width: 460px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#anthemes-404 h1 {
+	font-size: 50px;
+	padding: 0 0 40px 0;
+}
+
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 306px; 
+    padding: 20px;
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 306px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 43.5% !important; 
+    margin: 0 0 0 20px !important;
+}
+
+#mcTagMap .holdinner {
+    margin-left: -20px;
+}
+
+
+/* -- Contact Form 7 Plugin -- */
+form.wpcf7-form {
+	padding: 20px 25px 0px 25px;
+}
+
+
+/* -- Shop Style -- */
+.woocommerce .woocommerce-result-count {
+	font-size: 11px;
+}
+
+.woocommerce ul.products[class*=columns-] li.product,
+.woocommerce-page ul.products[class*=columns-] li.product {
+	width: 48% !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    font-size: 11px;
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 460px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+.footer-copyright {
+    width: 95%;
+    height: 65px;
+    padding: 20px 10px 70px 10px; 
+}
+
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+
+
+/* ------------ */
+} /* end 480px */
+
+
+
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 410px) and (max-width: 479px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+header { 
+    height: 130px; 
+}
+
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+
+.header-center { 
+    width: 390px; 
+}
+
+.main-header { 
+    float: right;
+}
+
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 390px; 
+    height: auto; 
+    margin: 30px auto 70px auto; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 390px; 
+    height: auto; 
+    margin: 30px auto 70px auto; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 15px 25px 15px;
+}
+
+.halfpage { 
+    width: 360px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 3px 0 0px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 390px; /* -50px */
+    float: left; 
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search -- */
+#searchform2 { 
+    width: 370px;
+    float: left;
+    margin-left: 20px;  
+} 
+
+#searchform2 #s { 
+    width: 300px; 
+}
+
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a,
+#respMenu li.current-menu-ancestor a,
+#respMenu li.current-menu-item a,
+#respMenu li.current-menu-parent a {
+    background: transparent !important;
+    color: #FFF !important;
+}
+
+.ant-responsive-menu li.login a { 
+    color: #000 !important;
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.register a { 
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.login a:hover {
+    color: #fff !important;
+}
+
+.ant-responsive-menu {
+    margin-top: -70px;
+}
+
+.menu-toggle {
+    margin-top: -103px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Featured Container -- */
+.featured-container {
+    width: 390px; 
+    margin: 0 auto;
+} 
+
+.header-boxleft {
+    width: 340px;
+    height: auto; 
+    margin-bottom: 23px;
+    padding: 25px 25px 40px 25px;
+}
+
+.header-boxleft-detail h1 {
+    font-size: 30px;
+}
+
+.header-right {
+    width: 390px; 
+    margin-bottom: 40px;
+} 
+
+
+/* -- Top Authors -- */
+.authors {
+    width: 390px; 
+    height: 50px;
+}
+
+ul.list-authors { 
+    margin-left: -15px;
+}
+
+ul.list-authors li { 
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 0 0 10px 15px;
+}
+
+ul.list-authors li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    padding: 3px;
+}
+
+ul.list-authors li:nth-last-child(-n+11) {
+    display: none;
+}
+
+div.list-trophy {
+    margin: -70px 0 0 35px;
+}
+
+a.circle-new-author { 
+    width: 50px;
+    height: 50px; 
+    margin-left: 17px; 
+    padding: 5px;    
+}
+
+a.circle-new-author i {
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+
+/* -- Menu home-links (home) -- */
+ul.menu-home-links li.right {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */ 
+ul.modern-grid li { 
+    width: 185px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 185px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252              { 
+    width: 185px;
+} 
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 185px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 185px;
+} 
+
+
+/* -- Home About boxes -- */
+.box-about-full {
+    width: 390px; 
+}
+
+.box-about-full h3 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 25px;
+}
+
+.box-about-wrap {
+    width: 390px;
+    margin: 100px auto 0 auto;
+}
+
+.box_about,
+.box_about_last {
+    margin-left: -2px;
+    width: auto;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+.box_about_last {
+    margin-right: 0;
+}
+
+.box-content h3 {
+    font-size: 26px;
+} 
+
+.box-about-wrap .box-content {
+    padding: 25px;
+    height: auto;
+} 
+
+
+/* -- Home Title Animation -- */
+.text-type-animation{ 
+  font-size: 26px;
+  line-height: 26px;
+}
+
+div.middle-home-title p  { 
+    margin-top: 10px; 
+}
+
+div.middle-home-title {
+    margin: 20px auto 0px auto; 
+}
+
+
+/* -- Default pagination -- */
+.defaultpag {  
+    width: 300px; 
+    margin: 20px auto 80px auto;  
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Top entry - */
+.entry-top {
+    width: 360px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 30px;
+    font-weight: 500; 
+    line-height: 36px;
+    margin: 12px 0 0 0; 
+}
+
+.entry h1.page-title {
+    font-size: 30px;
+    font-weight: 500; 
+    line-height: 36px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+
+/* -- Media Content Box -- */
+div.media-single-content {  
+    width: 360px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 300px; 
+    padding: 50px 30px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.not-found #searchform2 { 
+    width: 290px !important; 
+    margin-left: 0px;
+}
+
+.not-found #searchform2 #s {
+    width: 220px !important;
+    height: 20px !important;
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 360px; 
+}
+
+.one_half_sr {
+  padding: 25px 30px 15px 30px;
+  background-color: #fafafa;
+  border-radius: 5px; 
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.one_half_last_sr {
+    width: 360px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+
+/* -- Related ARTICLES (single page) -- */
+ul.article_list { 
+    width: 380px;
+    height: auto;
+    float: left;
+    border-radius: 2px;
+    margin: -20px 0 0 -20px;
+}
+
+ul.article_list li figure.snip1252  { width: 170px; }
+ul.article_list li      { width: 170px; margin: 20px 0 5px 20px; }          
+ul.article_list li img  { width: 170px; height: auto; max-height: 150px; } 
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    display: none;
+} 
+
+#single-share  {
+    display: none;
+}
+
+
+/* -- Single Like Box -- */
+.single-like-box {
+    display: none;
+}
+
+
+/* -- Single Download button -- */
+section.download-button { 
+    padding: 25px 15px 35px 15px;
+}
+
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 360px; 
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 360px; 
+}
+
+img.alignleft,
+div.alignleft { 
+	float: none;
+}
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 360px; 
+}
+
+.prev-articles .one_half { 
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.prev-articles .one_half_last {
+	width: 100%;
+}
+
+.prev-entry {
+    padding: 35px 40px 35px 40px; 
+}
+
+.prev-entry2 {
+    padding: 35px 40px 35px 40px; 
+}
+
+
+/* -- About Author -- */
+.author-left-meta img.avatar {
+	margin-top: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.author-info p {
+    margin-left: -30px !important; 
+    margin-top: 10px;
+    float: left;
+}
+
+.author-left-meta {
+    width: 40px;
+    height: 50px; 
+}
+
+ul.author-social-top { 
+    margin: 0px 0 0 -30px !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar { 
+    width: 390px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 25px;  
+    margin-right: 40px;
+} 
+
+.sidebar-sticky { 
+    width: 390px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px; 
+}
+
+
+/* -- Sidebar widgets-- */
+.sidebar .widget {
+    width: 300px;
+    padding: 30px 45px;
+    margin-top: 25px;
+    margin-left: 0px; 
+}
+
+/* -- Sidebar -- */
+.sidebar-sticky .widget {
+    width: 300px;
+    padding: 30px 45px;
+    margin-top: 25px;
+    margin-left: 0px; 
+} 
+
+
+/* -- Subscribe widget -- */
+.subscribe-widget input {
+    width: 70%; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 360px;
+}
+
+ul.comment li {
+    margin: 0 0 15px 0;
+    padding: 10px 15px; 
+}
+
+
+/* -- Lists -- */
+div.comment-body p {
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 360px;
+}
+
+#commentform {
+    padding: 10px 25px 35px 20px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+	/* -- 404 page -- */
+#anthemes-404 {
+    padding: 50px 0 50px 0; 
+}
+
+#anthemes-404 .middle-404 {
+	max-width: 390px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#anthemes-404 h1 {
+	font-size: 50px;
+	padding: 0 0 40px 0;
+}
+
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 306px; 
+    padding: 20px;
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 306px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 43.5% !important; 
+    margin: 0 0 0 20px !important;
+}
+
+#mcTagMap .holdinner {
+    margin-left: -20px;
+}
+
+
+/* -- Contact Form 7 Plugin -- */
+form.wpcf7-form {
+	padding: 20px 25px 0px 25px;
+}
+
+
+/* -- Shop Style -- */
+.woocommerce .woocommerce-result-count {
+	font-size: 11px;
+}
+
+.woocommerce ul.products[class*=columns-] li.product,
+.woocommerce-page ul.products[class*=columns-] li.product {
+	width: 48% !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    font-size: 11px;
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 390px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+ 
+.footer-copyright {
+    width: 95%;
+    height: 85px;
+    padding: 20px 10px 70px 10px; 
+}
+
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 360px) and (max-width: 409px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+header { 
+    height: 130px; 
+    padding-bottom: 35px; 
+}
+
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+
+.header-center { 
+    width: 360px; 
+}
+
+.main-header { 
+    float: right;
+}
+
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 360px; 
+    height: auto; 
+    margin: 30px auto 70px auto; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 360px; 
+    height: auto; 
+    margin: 0 auto 70px auto; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 15px 25px 15px;
+}
+
+.halfpage { 
+    width: 330px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 3px 0 0px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 360px; /* -50px */
+    float: left; 
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+    margin-top: -30px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search -- */
+#searchform2 { 
+    width: 340px;
+    float: left;
+    margin-left: 20px;  
+} 
+
+#searchform2 #s { 
+    width: 270px; 
+}
+
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a,
+#respMenu li.current-menu-ancestor a,
+#respMenu li.current-menu-item a,
+#respMenu li.current-menu-parent a {
+    background: transparent !important;
+    color: #FFF !important;
+}
+
+.ant-responsive-menu li.login a { 
+    color: #000 !important;
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.register a { 
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.login a:hover {
+    color: #fff !important;
+}
+
+.ant-responsive-menu {
+    margin-top: -70px;
+}
+
+.menu-toggle {
+    margin-top: -103px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Featured Container -- */
+.featured-container {
+    width: 360px; 
+    margin: 0 auto;
+} 
+
+.header-boxleft {
+    width: 310px;
+    height: auto; 
+    margin-bottom: 23px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 25px 25px 40px 25px;
+}
+
+.header-boxleft-detail h1 {
+    font-size: 30px;
+}
+
+.header-right {
+    width: 360px; 
+    margin-bottom: 40px;
+} 
+
+
+/* -- Top Authors -- */
+.authors {
+    width: 360px; 
+    height: 50px;
+}
+
+ul.list-authors { 
+    margin-left: -25px;
+}
+
+ul.list-authors li { 
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 0 0 10px 25px;
+}
+
+ul.list-authors li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    padding: 3px;
+}
+
+ul.list-authors li:nth-last-child(-n+12) {
+    display: none;
+}
+
+div.list-trophy {
+    margin: -70px 0 0 35px;
+}
+
+a.circle-new-author { 
+    width: 50px;
+    height: 50px; 
+    margin-left: 25px; 
+    padding: 5px;    
+}
+
+a.circle-new-author i {
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+
+/* -- Menu home-links (home) -- */
+ul.menu-home-links li.right {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */ 
+ul.modern-grid li { 
+    width: 170px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 170px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252 { 
+    width: 170px;
+} 
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 170px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 170px;
+} 
+
+
+/* -- Home About boxes -- */
+.box-about-full {
+    width: 360px; 
+    margin: 50px auto 0px auto;
+}
+
+.box-about-full h3 {
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 25px;
+}
+
+.box-about-wrap {
+    width: 360px;
+    margin: 100px auto 0 auto;
+}
+
+.box_about,
+.box_about_last {
+    margin-left: -2px;
+    width: auto;
+    height: 300px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+.box_about_last {
+    margin-right: 0;
+}
+
+.box-content h3 {
+    font-size: 26px;
+} 
+
+.box-about-wrap .box-content {
+    padding: 25px;
+    height: auto;
+}
+
+
+/* -- learn-more / read-more button -- */
+.learn-more {
+    margin-left: 13px;
+}
+
+
+/* -- Home Title Animation -- */
+.text-type-animation{ 
+  font-size: 26px;
+  line-height: 26px;
+}
+
+div.middle-home-title p  { 
+    margin-top: 10px; 
+}
+
+div.middle-home-title {
+    margin: -35px auto 0px auto; 
+}
+
+
+/* -- Default pagination -- */
+.defaultpag {  
+    width: 300px; 
+    margin: 20px auto 80px auto;  
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Top entry - */
+.entry-top {
+    width: 340px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 30px;
+    font-weight: 500; 
+    line-height: 36px;
+    margin: 12px 0 0 0; 
+}
+
+.entry h1.page-title {
+    font-size: 30px;
+    font-weight: 500; 
+    line-height: 36px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+
+/* -- Media Content Box -- */
+div.media-single-content {  
+    width: 340px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 300px; 
+    padding: 50px 30px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.not-found #searchform2 { 
+    width: 290px !important; 
+    margin-left: 0px;
+}
+
+.not-found #searchform2 #s {
+    width: 220px !important;
+    height: 20px !important;
+}
+
+.not-found h1 {
+    font-size: 32px; 
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 340px; 
+}
+
+.one_half_sr {
+  padding: 25px 20px 15px 20px;
+  background-color: #fafafa;
+  border-radius: 5px; 
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 300px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.one_half_last_sr {
+    width: 340px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+
+/* -- Related ARTICLES (single page) -- */
+ul.article_list { 
+    width: 360px;
+    height: auto;
+    float: left;
+    border-radius: 2px;
+    margin: -20px 0 0 -20px;
+}
+
+ul.article_list li figure.snip1252  { width: 160px; }
+ul.article_list li      { width: 160px; margin: 20px 0 5px 20px; }          
+ul.article_list li img  { width: 160px; height: auto; max-height: 150px; } 
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    display: none;
+} 
+
+#single-share  {
+    display: none;
+}
+
+
+/* -- Single Like Box -- */
+.single-like-box {
+    display: none;
+}
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 340px; 
+}
+
+
+/* -- Single Download button -- */
+section.download-button { 
+    padding: 25px 15px 35px 15px;
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 340px; 
+}
+
+img.alignleft,
+div.alignleft { 
+	float: none;
+}
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 340px; 
+}
+
+.prev-articles .one_half { 
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.prev-articles .one_half_last {
+	width: 100%;
+}
+
+.prev-entry {
+    padding: 35px 40px 35px 40px; 
+}
+
+.prev-entry2 {
+    padding: 35px 40px 35px 40px; 
+}
+
+
+/* -- About Author -- */
+.author-left-meta img.avatar {
+	margin-top: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.author-info p {
+    margin-left: -30px !important; 
+    margin-top: 10px;
+    float: left;
+}
+
+.author-left-meta {
+    width: 40px;
+    height: 50px; 
+}
+
+ul.author-social-top { 
+    margin: 0px 0 0 -30px !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar { 
+    width: 360px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 25px;  
+    margin-right: 40px;
+} 
+
+.sidebar-sticky { 
+    width: 360px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px; 
+}
+
+
+/* -- Sidebar widgets-- */
+.sidebar .widget {
+    width: 300px;
+    padding: 30px 30px;
+    margin-top: 25px;
+    margin-left: 0px; 
+}
+
+/* -- Sidebar -- */
+.sidebar-sticky .widget {
+    width: 300px;
+    padding: 30px 30px;
+    margin-top: 25px;
+    margin-left: 0px; 
+} 
+
+
+/* -- Subscribe widget -- */
+.subscribe-widget input {
+    width: 82%; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 340px;
+}
+
+ul.comment li {
+    margin: 0 0 15px 0;
+    padding: 10px 15px; 
+}
+
+
+/* -- Lists -- */
+div.comment-body p {
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 340px;
+}
+
+#commentform {
+    padding: 10px 25px 35px 20px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+	/* -- 404 page -- */
+#anthemes-404 {
+    padding: 20px 0 40px 0; 
+}
+
+#anthemes-404 .middle-404 {
+	max-width: 360px;
+	margin: 0 auto;
+	padding: 0 50px;
+}
+
+#anthemes-404 h1 {
+	font-size: 36px;
+	padding: 0 0 20px 0;
+}
+
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 306px; 
+    padding: 20px;
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 306px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 43.5% !important; 
+    margin: 0 0 0 20px !important;
+}
+
+#mcTagMap .holdinner {
+    margin-left: -20px;
+}
+
+
+/* -- Contact Form 7 Plugin -- */
+form.wpcf7-form {
+	padding: 20px 25px 0px 25px;
+}
+
+
+/* -- Shop Style -- */
+.woocommerce .woocommerce-result-count {
+	font-size: 11px;
+}
+
+.woocommerce ul.products[class*=columns-] li.product,
+.woocommerce-page ul.products[class*=columns-] li.product {
+	width: 48% !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    font-size: 10px !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 360px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+.footer-copyright {
+    width: 95%;
+    height: 85px;
+    padding: 20px 10px 70px 10px; 
+}
+
+
+/* -- Footer Social -- */
+ul.footer-social li {
+    height: 40px;
+    font-size: 18px; 
+    margin: 45px 1px 0 1px;
+}
+
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+
+/* ------------ */
+} /* end 360px */
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (max-width: 359px) {
+/*-----------------------------------------------------------------------------
+----------------------------- 1 - Layout --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Header */
+header { 
+    height: 130px; 
+    padding-bottom: 35px; 
+}
+
+/* - Boxed background - */
+.boxed-background { 
+    margin-left: 0px;
+    margin-right: 0px; 
+}
+
+.header-center { 
+    width: 305px; 
+}
+
+.main-header { 
+    float: right;
+}
+
+
+/* - Layout content - */
+.wrap-fullwidth { 
+    width: 305px; 
+    height: auto; 
+    margin: 30px auto 70px auto; 
+}
+
+.wrap-fullwidth-bg { 
+    width: 301px; 
+    height: auto; 
+    margin: 0px auto 70px auto; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px; 
+}
+
+.wrap-fullwidth-bg .entry { 
+    width: auto; 
+    padding: 0 15px 25px 15px;
+}
+
+.halfpage { 
+    width: 275px; 
+    padding: 0 15px;
+}
+
+.halfpage .entry { 
+    width: auto; 
+    padding: 0 3px 0 0px;
+}
+
+
+/* .page-content */
+.single-content { 
+    width: 305px; /* -50px */
+    float: left; 
+    padding: 0 0 25px 0; 
+    border: 2px solid #F5F5F5;
+    border-radius: 5px;
+    margin-top: -30px;
+}  
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 2 - Header --------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Search -- */
+#searchform2 { 
+    width: 285px;
+    float: left;
+    margin-left: 20px;  
+} 
+
+#searchform2 #s { 
+    width: 215px; 
+}
+
+
+/* -- Responsive Menu Styles -- */
+#respMenu li.current_page_item a,
+#respMenu li.current-menu-ancestor a,
+#respMenu li.current-menu-item a,
+#respMenu li.current-menu-parent a {
+    background: transparent !important;
+    color: #FFF !important;
+}
+
+.ant-responsive-menu li.login a { 
+    color: #000 !important;
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.register a { 
+    text-align: center;
+    margin: 0 0px 0 20px; 
+}
+
+.ant-responsive-menu li.login a:hover {
+    color: #fff !important;
+}
+
+.ant-responsive-menu {
+    margin-top: -70px;
+}
+
+.menu-toggle {
+    margin-top: -103px;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 3 - Home Content --------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Featured Container -- */
+.featured-container {
+    width: 305px; 
+    margin: 0 auto;
+} 
+
+.header-boxleft {
+    width: 255px;
+    height: auto; 
+    margin-bottom: 23px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 25px 25px 40px 25px;
+}
+
+.header-boxleft-detail h1 {
+    font-size: 24px;
+}
+
+.header-right {
+    width: 305px; 
+    margin-bottom: 40px;
+} 
+
+
+/* -- Home buttons -- */
+a.anbtn-register,
+a.anbtn-about {
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 9px 0 !important;
+    margin: 5px auto;
+}
+
+
+/* -- Top Authors -- */
+.authors {
+    width: 305px; 
+    height: 50px;
+}
+
+ul.list-authors { 
+    margin-left: -11px;
+}
+
+ul.list-authors li { 
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 0 0 10px 11px;
+}
+
+ul.list-authors li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    padding: 3px;
+}
+
+ul.list-authors li:nth-last-child(-n+12) {
+    display: none;
+}
+
+div.list-trophy {
+    margin: -70px 0 0 35px;
+}
+
+a.circle-new-author { 
+    width: 50px;
+    height: 50px; 
+    margin-left: 11px; 
+    padding: 5px;    
+}
+
+a.circle-new-author i {
+    margin-top: 17px;
+    font-size: 16px;
+}
+
+
+/* -- Menu home-links (home) -- */
+ul.menu-home-links li.right {
+    display: none;
+}
+
+
+/* -- Modern Articles List -- */ 
+ul.modern-grid li { 
+    width: 142.5px; 
+    margin: 20px 0 0 20px; 
+}
+
+ul.modern-grid li img {  
+    min-height: 142.5px; 
+}
+
+/* -- Posts hover border -- */
+.snip1252 { 
+    width: 142.5px;
+}
+
+
+/* -- Modern Articles List (big) -- */
+ul.modern-grid li.big-style,
+ul.modern-grid li.big-style .snip1252 { 
+    width: 142.5px;
+}
+
+ul.modern-grid li.big-style img {
+    min-height: 142.5px;
+} 
+
+
+/* -- Home About boxes -- */
+.box-about-full {
+    width: 305px; 
+    margin: 50px auto 0px auto;
+}
+
+.box-about-full h3 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.box-about-wrap {
+    width: 305px;
+    margin: 100px auto 0 auto;
+}
+
+.box_about,
+.box_about_last {
+    margin-left: -2px;
+    width: auto;
+    height: 320px;
+    margin-bottom: 20px;
+    margin-right: 0px;
+}
+
+.box_about_last {
+    margin-right: 0;
+}
+
+.box-content h3 {
+    font-size: 26px;
+} 
+
+.box-about-wrap .box-content {
+    padding: 25px;
+    height: auto;
+}
+ 
+
+/* -- Home Title Animation -- */
+.text-type-animation{ 
+  font-size: 26px;
+  line-height: 26px;
+}
+
+div.middle-home-title p  { 
+    margin-top: 10px; 
+}
+
+div.middle-home-title {
+    margin: -35px auto 0px auto; 
+}
+
+
+/* -- Default pagination -- */
+.defaultpag {  
+    width: 300px; 
+    margin: 20px auto 80px auto;  
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 4 - Entry Content -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Top entry - */
+.entry-top {
+    width: 285px; 
+}
+
+
+/* -- Page / Article Title -- */
+h1.article-title {
+    font-size: 24px;
+    font-weight: 500; 
+    line-height: 28px;
+    margin: 12px 0 0 0; 
+}
+
+.entry h1.page-title {
+    font-size: 30px;
+    font-weight: 500; 
+    line-height: 36px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    margin-top: 45px;
+}
+
+
+/* -- Media Content Box -- */
+div.media-single-content {  
+    width: 285px;
+    margin: 0 auto;
+    border-radius: 3px;
+    margin-top: 20px;
+}
+
+
+/* -- not-found -- */
+.not-found {
+    width: 280px; 
+    padding: 50px 10px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+.not-found #searchform2 { 
+    width: 270px !important; 
+    margin-left: 0px;
+}
+
+.not-found #searchform2 #s {
+    width: 200px !important;
+    height: 20px !important;
+}
+
+.not-found h1 {
+    font-size: 32px; 
+}
+ 
+
+/* -- Related articles single -- */
+.single-related-wrap {
+    width: 285px; 
+}
+
+.one_half_sr {
+  padding: 25px 5px 15px 5px;
+  background-color: #fafafa;
+  border-radius: 5px; 
+}
+
+.one_half_sr img {
+    width: 275px;
+}
+
+.one_half_sr,
+.one_half_last_sr {
+    float: left;
+    width: 275px;
+    margin-bottom: 10px;
+    margin-right: 0px;
+}
+
+.one_half_last_sr {
+    width: 285px;
+    margin-right: 0;
+    margin-top: 30px;
+}
+
+
+/* -- Related ARTICLES (single page) -- */
+ul.article_list { 
+    width: 305px;
+    height: auto;
+    float: left;
+    border-radius: 2px;
+    margin: -20px 0 0 -15px;
+}
+
+ul.article_list li figure.snip1252  { width: 137px; }
+ul.article_list li      { width: 137px; margin: 20px 0 5px 15px; }          
+ul.article_list li img  { width: 137px; height: auto; max-height: 150px; } 
+
+
+/* -- Single Share -- */
+div.single-fw-bg #single-share { 
+    display: none;
+} 
+
+#single-share  {
+    display: none;
+}
+
+
+/* -- Entry bottom -- */
+.entry-bottom {
+    width: 285px; 
+}
+
+
+/* -- Single Like Box -- */
+.single-like-box {
+    display: none;
+}
+
+
+/* -- Single Download button -- */
+section.download-button { 
+    padding: 25px 15px 35px 15px;
+}
+
+
+/* -- Entry content style -- */
+.entry {
+    width: 285px; 
+}
+
+img.alignleft,
+div.alignleft { 
+	float: none;
+}
+
+/* -- Next/Pre articles single -- */
+.prev-articles {
+    width: 285px; 
+}
+
+.prev-articles .one_half { 
+	width: 100%;
+	margin-right: 0px;
+	margin-bottom: 20px;
+}
+
+.prev-articles .one_half_last {
+	width: 100%;
+}
+
+.prev-entry {
+    padding: 35px 40px 35px 40px; 
+}
+
+.prev-entry2 {
+    padding: 35px 40px 35px 40px; 
+}
+
+
+/* -- About Author -- */
+.author-left-meta img.avatar {
+	margin-top: 2px;
+    width: 40px;
+    height: 40px;
+}
+
+.author-info p {
+    margin-left: -30px !important; 
+    margin-top: 10px;
+    float: left;
+}
+
+.author-left-meta {
+    width: 40px;
+    height: 50px; 
+}
+
+ul.author-social-top { 
+    margin: 0px 0 0 -30px !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 5 - Sidebar & Widgets ---------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Sidebar -- */
+.sidebar { 
+    width: 305px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto;
+    margin-top: 25px;  
+    margin-right: 40px;
+} 
+
+.sidebar-sticky { 
+    width: 305px; 
+    float: none; 
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 25px; 
+}
+
+
+/* -- Sidebar widgets-- */
+.sidebar .widget {
+    width: 300px;
+    padding: 15px 2.5px;
+    margin-top: 25px;
+    margin-left: 0px; 
+}
+
+/* -- Sidebar -- */
+.sidebar-sticky .widget {
+    width: 300px;
+    padding: 15px 2.5px;
+    margin-top: 25px;
+    margin-left: 0px; 
+} 
+
+
+/* -- Subscribe widget -- */
+.subscribe-widget input {
+    width: 75%; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 6 - Comments Form -------------------------------
+-----------------------------------------------------------------------------*/
+
+/* - Comments Form -- */
+ul.comment {
+	width: 285px;
+}
+
+ul.comment li {
+    margin: 0 0 15px 0;
+    padding: 10px 15px; 
+}
+
+
+/* -- Lists -- */
+div.comment-body p {
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+
+/* -- Comments -- */
+.comments {
+	width: 285px;
+}
+
+#commentform {
+    padding: 10px 25px 35px 20px; 
+}
+
+
+/*-----------------------------------------------------------------------------
+----------------------------- 8 - Custom Pages --------------------------------
+-----------------------------------------------------------------------------*/
+
+	/* -- 404 page -- */
+#anthemes-404 {
+    padding: 20px 0 40px 0; 
+}
+
+#anthemes-404 .middle-404 {
+	max-width: 305px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+#anthemes-404 h1 {
+	font-size: 36px;
+	padding: 0 0 20px 0;
+}
+
+
+/* -- Tag & Category Index (-80px) -- */
+#mcTagMap {
+    width: 265px; 
+    padding: 10px;
+}
+
+#mcTagMap #mcTagMapNav { 
+    width: 265px !important; 
+}
+
+#mcTagMap .holdleft,
+#sc_mcTagMap .holdleft {
+    width: 42.5% !important; 
+    margin: 0 0 0 20px !important;
+}
+
+#mcTagMap .holdinner {
+    margin-left: -20px;
+}
+
+
+/* -- Contact Form 7 Plugin -- */
+form.wpcf7-form {
+	padding: 20px 25px 0px 25px;
+}
+
+
+/* -- Shop Style -- */
+.woocommerce .woocommerce-result-count {
+	display: none;
+}
+
+.woocommerce ul.products[class*=columns-] li.product,
+.woocommerce-page ul.products[class*=columns-] li.product {
+	width: 48% !important;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li {
+    font-size: 9px !important;
+}
+
+
+/*-----------------------------------------------------------------------------
+------------------------------ 9 - Footer -------------------------------------
+-----------------------------------------------------------------------------*/
+
+/* -- Footer -- */
+.footer-wrap  { 
+    width: 305px; 
+    height: auto; 
+    margin: 0 auto; 
+}
+
+.footer-copyright {
+    width: 95%;
+    height: 100px;
+    padding: 20px 10px 70px 10px; 
+}
+
+
+/* -- Footer Social -- */
+ul.footer-social li {
+    height: 40px;
+    font-size: 18px; 
+    margin: 45px 1px 0 1px;
+}
+
+
+/* -- Back to Top -- */
+#back-top span {
+    border-radius: 50px;
+}
+
+#back-top span i { 
+    margin: 12px 0 0 14px;
+} 
+
+/* ------------ */
+} /* end 305px */

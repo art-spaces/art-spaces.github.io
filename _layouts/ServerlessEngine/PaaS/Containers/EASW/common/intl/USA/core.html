@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  {% include ServerlessEngine/PaaS/Containers/EASW/common/intl/USA/head.html %}
+  <body class="body-messages">
+    <noscript>
+      <strong>
+        We're Sorry But (E.A.S.W.) Doesn't Work Properly Without Javascript Enabled. Please Enable It To Continue.
+      </strong>
+    </noscript>
+    <!-- LAZY LOADING START -->
+    <div class="bar_loading" id="main_loading_lines"></div>
+    <div id="loading_main_progress" class="">
+      <svg width="50px" height="50px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"
+        preserveAspectRatio="xMidYMid">
+        <rect x="0" y="0" width="100" height="100" fill="none" class="bk"></rect>
+        <circle cx="50" cy="50" r="40" stroke="#6d47d9" fill="none" stroke-width="10" stroke-linecap="round">
+          <animate attributeName="stroke-dashoffset" dur="1.0s" repeatCount="indefinite" from="0" to="502"></animate>
+          <animate attributeName="stroke-dasharray" dur="1.0s" repeatCount="indefinite"
+            values="150.6 100.4;1 250;150.6 100.4"></animate>
+        </circle>
+      </svg>
+    </div>
+    <!-- LAZY LOADING END -->
+
+    {% include ServerlessEngine/PaaS/Containers/EASW/common/intl/USA/header.html %}
+
+    <main id="main_content">{{ content }}</main>
+
+    {% include ServerlessEngine/PaaS/Containers/EASW/common/intl/USA/footer.html %}
+    {% include ServerlessEngine/PaaS/Containers/EASW/common/intl/USA/mini-footer.html %}
+
+    <!-- IMPORT STATIC JS -->
+    <script src="{{ site.api_base_static_route }}js/main/sync-transformers-model.js"></script>
+    <script type="text/javascript" id="imagery_flow_custom" src="{{ site.api_base_static_route }}js/extender/art_imagery_flow/imagery_flow_custom.js"></script>
+		<script type="text/javascript" id="imagery_flow_owl_carousel" src="{{ site.api_base_static_route }}js/extender/art_imagery_flow/imagery_flow_owl_carousel.min.js"></script>
+		<script type="text/javascript" id="jquery_sticky_kit" src="{{ site.api_base_static_route }}js/extender/art_imagery_flow/jquery_sticky_kit.js"></script>
+		<script type="text/javascript" id="imagery_flow_loaded" src="{{ site.api_base_static_route }}js/extender/art_imagery_flow/imagery_flow_loaded.min.js"></script>
+		<script type="text/javascript" id="imagery_flow_masonry" src="{{ site.api_base_static_route }}js/extender/art_imagery_flow/imagery_flow_masonry.min.js"></script>
+    <!-- Sync With System -->
+    <script type="text/javascript">
+      function SyncTransformersModel() {
+        var currentTime = new Date().getHours();
+        if (0 <= currentTime && currentTime < 5) {
+          document.write("<script src='/api/serverless/easw/includes/assets/js/main/sync-main-dark-model.js'>" + "<" + "/script>");
+        }
+        if (5 <= currentTime && currentTime < 19) {
+          document.write("<script src='/api/serverless/easw/includes/assets/js/main/sync-main-light-model.js'>" + "<" + "/script>");
+        }
+        if (19 <= currentTime && currentTime < 24) {
+          document.write("<script src='/api/serverless/easw/includes/assets/js/main/sync-main-dark-model.js'>" + "<" + "/script>");
+        }
+      }
+      SyncTransformersModel();
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,82 @@
+<!-- FOOTER START -->
+<!-- https://themesdesign.in/nazox/layouts/icons-remix.html -->
+<div class="un-bottom-navigation filter-blur" id="mini_ui">
+<div class="em_body_navigation border-0 -active-links">
+    <div class="item_link">
+    <a id="mini_router_ltr_1" class="btns btns_navLink" aria-label="btnNavigation">
+        <div class="icon_current"><i class="ri-camera-lens-line"></i></div>
+        <div class="icon_active"><i class="ri-camera-lens-fill"></i></div>
+    </a>
+    </div>
+    <div class="item_link">
+    <a id="mini_router_ltr_2" class="btns btns_navLink" aria-label="btnNavigation">
+        <div class="icon_current"><i class="ri-movie-2-line"></i></div>
+        <div class="icon_active"><i class="ri-movie-2-fill"></i></div>
+    </a>
+    </div>
+    <div class="item_link">
+    <a href="#" id="mini_router_home" class="btns btns_navLink active" aria-label="btnNavigation">
+        <div class="icon_current"><i class="ri-compass-4-line"></i></div>
+        <div class="icon_active"><i class="ri-compass-4-fill"></i></div>
+    </a>
+    </div>
+    <div class="item_link">
+    <a id="mini_router_rtl_1" class="btns btns_navLink" aria-label="btnNavigation">
+        <div class="icon_current"><i class="ri-disc-line"></i></div>
+        <div class="icon_active"><i class="ri-disc-fill"></i></div>
+    </a>
+    </div>
+    <div class="item_link">
+    <a id="mini_router_rtl_2" class="btns btns_navLink" aria-label="btnNavigation">
+        <div class="icon_current"><i class="ri-donut-chart-line"></i></div>
+        <div class="icon_active"><i class="ri-donut-chart-fill"></i></div>
+    </a>
+    </div>
+</div>
+</div>
+<!-- FOOTER END -->
+
+<div class="d-flex justify-content-center">
+    <div class="toast status-connection" role="alert" aria-live="assertive" aria-atomic="true"></div>
+</div>
+
+<script type="text/javascript">
+window.addEventListener("load", function () {
+    $('#mini_router_ltr_1').click(function(){
+        $("#mini_router_ltr_1").addClass("active");
+        $("#mini_router_ltr_2").removeClass("active");
+        $("#mini_router_home").removeClass("active");
+        $("#mini_router_rtl_1").removeClass("active");
+        $("#mini_router_rtl_2").removeClass("active");
+    });
+    $('#mini_router_ltr_2').click(function(){
+        $("#mini_router_ltr_1").removeClass("active");
+        $("#mini_router_ltr_2").addClass("active");
+        $("#mini_router_home").removeClass("active");
+        $("#mini_router_rtl_1").removeClass("active");
+        $("#mini_router_rtl_2").removeClass("active");
+    });
+    $('#mini_router_home').click(function(){
+        $("#mini_router_ltr_1").removeClass("active");
+        $("#mini_router_ltr_2").removeClass("active");
+        $("#mini_router_home").addClass("active");
+        $("#mini_router_rtl_1").removeClass("active");
+        $("#mini_router_rtl_2").removeClass("active");
+    });
+    $('#mini_router_rtl_1').click(function(){
+        $("#mini_router_ltr_1").removeClass("active");
+        $("#mini_router_ltr_2").removeClass("active");
+        $("#mini_router_home").removeClass("active");
+        $("#mini_router_rtl_1").addClass("active");
+        $("#mini_router_rtl_2").removeClass("active");
+    });
+    $('#mini_router_rtl_2').click(function(){
+        $("#mini_router_ltr_1").removeClass("active");
+        $("#mini_router_ltr_2").removeClass("active");
+        $("#mini_router_home").removeClass("active");
+        $("#mini_router_rtl_1").removeClass("active");
+        $("#mini_router_rtl_2").addClass("active");
+    });
+});
+</script>
+

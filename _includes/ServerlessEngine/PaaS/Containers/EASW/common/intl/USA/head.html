@@ -1,0 +1,61 @@
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no, maximum-scale=5.0, minimum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <meta name="msapplication-tap-highlight" content="no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+	<meta name="format-detection" content="telephone=no">
+  <!-- IMPORT SHARE INFORMATION -->
+  <meta data-n-head="ssr" property="og:title" content="XXX"/>
+  <meta data-n-head="ssr" property="og:description" content="XXX" />
+  <meta data-n-head="ssr" data-hid="og:image_width" property="og:image:width" content="1400">
+  <meta data-n-head="ssr" data-hid="og:image_height" property="og:image:height" content="700">
+
+  <!-- IMPORT STATIC RES -->
+  <script type="text/javascript" id="jquery" src="{{ site.api_base_static_route }}/js/main/jquery-3.2.1.js"></script>
+  <script type="text/javascript" id="bootstrapjs" src="{{ site.api_base_static_route }}js/main/bootstrap.js"></script>
+  <link rel="stylesheet" id="bootstrapcss" href="{{ site.api_base_static_route }}css/main/bootstrap.css">
+  <link rel="stylesheet" id="mainsccs" href="{{ site.api_base_static_route }}css/main/main.css">
+  <link rel="stylesheet" id="mini_navbar" href="{{ site.api_base_static_route }}css/extender/art_imagery_flow/mini_navbar.css">
+  <link rel="stylesheet" id="remixicon" href="{{ site.api_base_static_route }}css/extender/art_imagery_flow/remixicon.min.css">
+  <script type="text/javascript" id="form" src="{{ site.api_base_static_route }}js/main/jquery-form.v3.51.0.js"></script>
+  <script type="text/javascript" id="main" src="{{ site.api_base_static_route }}js/main/main.js"></script>
+  <script type="text/javascript" id="afterglow" src="{{ site.api_base_static_route }}js/main/afterglow.min.js"></script>
+
+
+	<link rel="stylesheet" id="imagery_flow_style" href="{{ site.api_base_static_route }}css/extender/art_imagery_flow/imagery_flow_style.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="imagery_flow_def_style" href="{{ site.api_base_static_route }}css/extender/art_imagery_flow/imagery_flow_def_style.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="imagery_flow_responsive" href="{{ site.api_base_static_route }}css/extender/art_imagery_flow/imagery_flow_responsive.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="imagery_flow_owl_carousel" href="{{ site.api_base_static_route }}css/extender/art_imagery_flow/imagery_flow_owl_carousel.css" type="text/css" media="all" />
+	<link rel="stylesheet" id="fontawesome" href="{{ site.api_base_static_route }}css/extender/art_imagery_flow/fontawesome.css" type="text/css" media="all" />
+	<script type="text/javascript" id="jquery-migrate-js" src="{{ site.api_base_static_route }}js/extender/art_imagery_flow/jquery_migrate.min.js" ></script>
+
+  <!-- IMPORT STATIC ICONS -->
+  <link rel="apple-touch-icon" href="{{ site.remote_network_vm_for_anon_inc_favicon }}" sizes="144x144">
+  <link rel="icon" type="image/png" href="{{ site.remote_network_vm_for_anon_inc_favicon }}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{{ site.remote_network_vm_for_anon_inc_favicon }}" sizes="96x96">
+  <meta name="description" content="XXX">
+  <meta name="keywords" content="{{ site.keyword }}">
+  <meta name="author" content="{{ site.organization }}">
+  <title>{{ page.title }}  |  {{ page.excerpt }}</title>
+  <script type="text/javascript">
+    _record = 0;
+    var sys_info = document.title;
+    function information() {
+      _record++;
+      if (_record == 3) {
+        _record = 1;
+      }
+      if (_record == 1) {
+        document.title = " {{ page.title }} | " + sys_info;
+      }
+      if (_record == 2) {
+        document.title = " {{ page.excerpt }} | " + sys_info;
+      }
+      setTimeout("information()", 1000);
+    }
+    information();
+  </script>
+</head>
