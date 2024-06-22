@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  {% include ServerlessEngine/PaaS/Containers/AS/common/framework-head.html %}
+  <body>
+    <noscript>
+      <strong>
+      We're Sorry But (Art Space Platform) Doesn't Work Properly Without Javascript Enabled. Please Enable It To Continue.
+      </strong>
+    </noscript>
+    <!--Lazy loading start-->
+    <div id="preloader">
+      <div class="sk-three-bounce">
+        <div class="sk-child sk-bounce1"></div>
+        <div class="sk-child sk-bounce2"></div>
+        <div class="sk-child sk-bounce3"></div>
+      </div>
+    </div>
+    <!--Lazy loading end-->
+    <!--Main wrapper start-->
+    <div id="main-wrapper">
+      <!--Header start-->
+      {% include ServerlessEngine/PaaS/Containers/AS/common/ltr-navigation-header-org.html %}
+      {% include ServerlessEngine/PaaS/Containers/AS/common/ltr-sidebar-models.html %}
+      <!--Header end -->
+      <!--Content start-->
+      {{ content }}
+      <!--Content end-->
+    </div>
+    <!--Footer start-->
+    {% include ServerlessEngine/PaaS/Containers/AS/common/framework-footer.html %}
+    <!--Footer end-->
+    <!--Main wrapper end-->
+    <!--Scripts-->
+    <script src="/ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/vendor/draggable/draggable.js"></script>
+    <script src="/ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/vendor/global/global.min.js"></script>
+    <script src="/ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+    <script src="/ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/js/custom.min.js"></script>
+    {% include ServerlessEngine/PaaS/Containers/AS/utils/transformers-models/sync-cloud-model.html %}
+    <script src="/ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/js/main.js"></script>
+    <script src="/ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/js/transformers-models.js"></script>
+  </body>
+</html>

@@ -6,10 +6,11 @@ keyword: "XXXXX"
 email: XXXXX
 organization: "XXXXX"
 description: >-
-  WE ARE ANON SYS. WE ARE LEGION.
+  XXXXX.
 baseurl: ""
 url: ""
-favicon: "XXXXX"
+favicon: "/assets/resource/icon/favicon/icon-32x32.png"
+relative_permalinks: false
 
 # Build settings
 # theme: minima
@@ -101,10 +102,25 @@ plugins:
 #  ────────────────────────(START AUTOMATED BUILD SERVICE)─────────────────────────────────
 
 # PaaS Containers EASW Route Controller
-api_vm_base_com: ANON SYS, INC.
-api_vm_base_des: WE ARE ANON SYS. WE ARE LEGION.
+api_vm_base_com: ART SPACE, INC.
+api_vm_base_des: WE ARE ART SPACE. WE ARE LEGION.
 api_base_network_route: /api/serverless/easw
 api_base_static_route: /api/serverless/easw/includes/assets/
 api_base_res_route: /api/serverless/easw/includes/assets/res/
+
+sys_favicon: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/resource/common/products/favicon.png
+remote_global_ui: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/resource/common/ui-icon/
+remote_products_api_v1: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/resource/common/products/small_sign-v2.svg
+remote_products_api_v2: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/resource/common/products/word_sign-v2.svg
+remote_anon_api_v1: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/resource/common/products/small_sign-v2.webp
+remote_anon_api_v2: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/resource/common/products/word_sign-v2.webp
+remote_dispatch_api: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace
+remote_account_api: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Account/
+remote_services_api: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/Actions=GlobalToken/Reaction=OAuth-Keys/Privatized/Services/
+contributors_api: /ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/resource/common/contributors/
+contributors_status: Contributors
+
+sidebar_work_spaces: We Work Space
+sidebar_work_spaces_global_plans: Global Plans Overview
 
 #  ────────────────────────(END AUTOMATED BUILD SERVICE)──────────────────────────────────

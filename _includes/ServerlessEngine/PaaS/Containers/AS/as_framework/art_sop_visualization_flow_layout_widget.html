@@ -1,0 +1,42 @@
+<script src="/ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/js/visualization/visualization-go.js"></script>
+<script src="/ServerlessEngine/OpenAPIs/PaaS/ArtSpace/static/assets/js/visualization/SerpentineLayout.js"></script>
+<!--SerpentineLayout-->
+<script>
+	function init() {
+		if (window.goSamples) goSamples(); // init for these samples -- you don't need to call this
+		var $ = go.GraphObject.make;
+		visualization_flow = $(go.Diagram, "visualization_flow", // create a Diagram for the DIV HTML element
+		{
+			isTreePathToChildren: false,
+			// links go from child to parent
+			layout: $(SerpentineLayout) // defined in SerpentineLayout.js
+		});
+		visualization_flow.nodeTemplate = $(go.Node, go.Panel.Auto, $(go.Shape, {
+			figure: "RoundedRectangle",
+			fill: "white"
+		},
+		new go.Binding("fill", "color")), $(go.TextBlock, {
+			margin: 4
+		},
+		new go.Binding("text", "key")));
+		visualization_flow.linkTemplate = $(go.Link, go.Link.Orthogonal, {
+			corner: 5
+		},
+		$(go.Shape), $(go.Shape, {
+			toArrow: "Standard"
+		}));
+		var model = new go.TreeModel();
+		model.nodeParentKeyProperty = "next";
+		model.nodeDataArray = [
+		{ key: "D.A.C. SOP", next: "Concept Phase", color: "#05ff55"},
+		{ key: "Concept Phase", next: "Material Collection & Preparation", color: "#00ffff"},
+		{ key: "Material Collection & Preparation", next: "Creation & Production", color: "#ffff00"},
+		{ key: "Creation & Production", next: "Post-Processing", color: "#05ff55"},
+		{ key: "Post-Processing", next: "Review & Release", color: "#00ffff"},
+		{ key: "Review & Release", next: "Archiving & Maintenance", color: "#ffff00"},
+		{ key: "Archiving & Maintenance", color: "#05ff55"}];
+		visualization_flow.model = model;
+	}
+	window.addEventListener('DOMContentLoaded', init);
+</script>
+<div id="visualization_flow" style="width: 100%; height: 411px; min-width: 100%;"></div>

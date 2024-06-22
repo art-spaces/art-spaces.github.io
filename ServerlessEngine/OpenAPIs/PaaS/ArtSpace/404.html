@@ -1,0 +1,24 @@
+---
+permalink: /404
+layout: ServerlessEngine/PaaS/Containers/AS/common/framework-actions
+title: 🚫 404 :(
+excerpt: The Page You Are Looking For Not Available :(
+---
+
+<div class="authincation h-100">
+	<div class="container h-100">
+	  <div class="row justify-content-center h-100 align-items-center">
+		<div class="col-md-8">
+		  <div class="form-input-content text-center error-page">
+			<h1 class="error-text font-weight-bold">404 :(</h1><br>
+			<h4 style="font-size: 30px;"><i class="fa fa-exclamation-triangle text-warning"></i> The Page You Were Looking For Is Not Found !</h4><br>
+			<p>You May Have Mistyped The Address Or The Page May Have Moved !</p>
+			<div>
+			  <a class="btn btn-primary" href="{{ site.remote_dispatch_api }}">Back To Home</a>
+			</div>
+		  </div>
+		  {% include ServerlessEngine/PaaS/Containers/AS/utils/privatized-copyright-widget.html %}
+		</div>
+	  </div>
+	</div>
+  </div>

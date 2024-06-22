@@ -1,0 +1,29 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="keywords" content="{{ site.sys_keyword }}">
+  <meta name="organization" content="{{ site.sys_organization }}">
+  <link rel="icon" href="{{ site.sys_favicon }}" type="image/x-icon" sizes="32x32">
+  <link rel="apple-touch-icon" href="{{ site.sys_favicon }}">
+  <link href="{{site.remote_dispatch_api}}/static/assets/vendor/bootstrap-select/css/bootstrap-select.min.css" rel="stylesheet">
+  <link href="{{site.remote_dispatch_api}}/static/assets/css/main.css" rel="stylesheet">
+</head>
+
+<script type="text/javascript">
+  _record = 0;
+  var sys_info = document.title;
+  function information() {
+    _record++;
+    if (_record == 3) {
+      _record = 1;
+    }
+    if (_record == 1) {
+      document.title = "{{ page.title }} | " + sys_info;
+    }
+    if (_record == 2) {
+      document.title = " {{ page.excerpt }} | " + sys_info;
+    }
+    setTimeout("information()", 1000);
+  }
+  information();
+</script>
