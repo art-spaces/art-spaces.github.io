@@ -359,12 +359,22 @@ blockquote {
 	margin: 0 0 1rem
 }
 
-[data-theme-version="light"] b,strong {
+[data-theme-version="light"] .b-tags {
 	font-weight: bolder;
 	color: #1a3353;
 }
 
-[data-theme-version="dark"] b,strong {
+[data-theme-version="dark"] .b-tags {
+	font-weight: bolder;
+	color: #fff;
+}
+
+.b-tags-v1 {
+	font-weight: bolder;
+	color: #26363d;
+}
+
+b,strong {
 	font-weight: bolder;
 	color: #fff;
 }
