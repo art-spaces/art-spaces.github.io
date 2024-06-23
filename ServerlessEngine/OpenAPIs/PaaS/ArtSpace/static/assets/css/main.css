@@ -359,8 +359,14 @@ blockquote {
 	margin: 0 0 1rem
 }
 
-b,strong {
-	font-weight: bolder
+[data-theme-version="light"] b,strong {
+	font-weight: bolder;
+	color: #1a3353;
+}
+
+[data-theme-version="dark"] b,strong {
+	font-weight: bolder;
+	color: #fff;
 }
 
 small {
@@ -33103,7 +33109,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 }[data-theme-version="dark"] a.link:focus,[data-theme-version="dark"] a.link:hover {
 	color: #51A6F5
 }[data-theme-version="dark"] a:hover {
-	color: #fff
+	/* color: #fff; */
 }[data-theme-version="dark"] .border-right {
 	border-right: 1px solid #636363 !important
 }[data-theme-version="dark"] .border-left {
@@ -33410,7 +33416,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 }[data-theme-version="dark"] pre {
 	display: block;
     font-size: 87.5%;
-    color: #69fe9b !important;
+    color: #ffffff !important;
 	white-space: pre-line !important;
 }[data-theme-version="dark"] .donut-chart-sale .peity path:last-child {
 	fill: #24292D
@@ -47890,7 +47896,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 }[data-theme-version="dark"] a.link:focus,[data-theme-version="dark"] a.link:hover {
 	color: #51A6F5
 }[data-theme-version="dark"] a:hover {
-	color: #00fe3c !important;
+	/* color: #00fe3c !important; */
 }[data-theme-version="dark"] .border-right {
 	border-right: 2px solid #636363 !important
 }[data-theme-version="dark"] .border-left {
@@ -47930,7 +47936,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 	background-color: #636363;
 	color: #fff
 }[data-theme-version="dark"] .text-muted {
-	color: #69fe9b !important;
+	color: #d7effe !important;
 }[data-theme-version="dark"] .modal-content {
 	background: #2d41489e
 }[data-theme-version="dark"] .modal-footer,[data-theme-version="dark"] .modal-header {
