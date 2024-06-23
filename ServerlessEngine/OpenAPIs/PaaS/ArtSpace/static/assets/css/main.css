@@ -412,7 +412,7 @@ a {
 }
 
 a:hover {
-	color: #21b15b;
+	color: #00fe3c;
 	text-decoration: underline
 }
 
@@ -17560,9 +17560,6 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 	color: #1a3353;
 	border-radius: 0 50px 50px 0px;
 }
-.sidebar-close-trigger:hover {
-	color: #1a3353;
-}
 
 .sidebar-right.show {
 	right: 5.25rem;
@@ -17750,7 +17747,7 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 }
 
 .sidebar-right #nav_header_color_1+label,.sidebar-right #header_color_1+label,.sidebar-right #sidebar_color_1+label,.sidebar-right #primary_color_1+label {
-	border: 1px solid #c4c4c4
+	border: 2px solid #c4c4c4
 }
 
 .sidebar-right.style-1 {
@@ -36307,7 +36304,7 @@ input[type="checkbox"]:checked:after {
 }
 
 .bootstrap-select .btn {
-	border: 1px solid #eee !important;
+	border: 2px solid #eee !important;
 	background-color: transparent !important;
 	font-weight: 400;
 	color: #7e7e7e !important
@@ -47893,17 +47890,17 @@ html[dir="rtl"] [direction="rtl"][data-sidebar-style="compact"]:not([data-layout
 }[data-theme-version="dark"] a.link:focus,[data-theme-version="dark"] a.link:hover {
 	color: #51A6F5
 }[data-theme-version="dark"] a:hover {
-	color: #fff
+	color: #00fe3c !important;
 }[data-theme-version="dark"] .border-right {
-	border-right: 1px solid #636363 !important
+	border-right: 2px solid #636363 !important
 }[data-theme-version="dark"] .border-left {
-	border-left: 1px solid #636363 !important
+	border-left: 2px solid #636363 !important
 }[data-theme-version="dark"] .border-top {
-	border-top: 1px solid #636363 !important
+	border-top: 2px solid #636363 !important
 }[data-theme-version="dark"] .border-bottom {
-	border-bottom: 1px solid #636363 !important
+	border-bottom: 2px solid #636363 !important
 }[data-theme-version="dark"] .border {
-	border: 2px solid #49dc80 !important;
+	border: 2px solid #c4c4c4 !important;
 }[data-theme-version="dark"] .dropdown-menu {
 	background-color: #19232b;
 	box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.1)
